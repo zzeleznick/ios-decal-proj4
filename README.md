@@ -1,6 +1,6 @@
 # DLight
 
-## Authors 
+## Authors
 - Zachary Zeleznick
 
 ## Purpose
@@ -11,8 +11,8 @@ Through personalized recommendations, intelligent filters, and
 context-aware notifications, you can be sure that DLight provides the
 best experience for healthful eaters.
 
-## Features 
-- Profile Creation 
+## Features
+- Profile Creation
 - Profile Customization
 - Restaurant
 - Search and Filters
@@ -21,7 +21,7 @@ best experience for healthful eaters.
 - Notifications
 - Recommendations
 
-## Control Flow 
+## Control Flow
 - Users are initially presented with a splash screen,
 where they can log in or browse as a guest. Once done, they see a
 curated list of the best restaurants nearby, and can swipe left to
@@ -30,22 +30,21 @@ restaurant information page, which is contains key facts and a view of
 top meals.
 
 ## Implementation
-- TBD
 
 ### Model
-- User 
+- User
 - Restaurant
 - Meal
 
 ### View
 - RestaurantListView
-- RestaurantDetailView 
-- ProfileView 
+- RestaurantDetailView
+- ProfileView
 - MealView
 - MealListView
 
 
-### Controller 
+### Controller
 - RestaurantController
 - ProfileViewController
 - MealViewController
