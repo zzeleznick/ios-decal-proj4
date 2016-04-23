@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2453058B1CCC0634000CCBC1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453058A1CCC0634000CCBC1 /* Profile.swift */; };
+		248A992A1C98F4B000DD54DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99291C98F4B000DD54DE /* AppDelegate.swift */; };
+		248A992C1C98F4B000DD54DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A992B1C98F4B000DD54DE /* ViewController.swift */; };
+		248A992F1C98F4B000DD54DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248A992D1C98F4B000DD54DE /* Main.storyboard */; };
+		248A99321C98F4B000DD54DE /* DLight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 248A99301C98F4B000DD54DE /* DLight.xcdatamodeld */; };
+		248A99341C98F4B000DD54DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248A99331C98F4B000DD54DE /* Assets.xcassets */; };
+		248A99371C98F4B000DD54DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248A99351C98F4B000DD54DE /* LaunchScreen.storyboard */; };
+		248A99421C98F4B000DD54DE /* DLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99411C98F4B000DD54DE /* DLightTests.swift */; };
+		248A994D1C98FAB800DD54DE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A994C1C98FAB800DD54DE /* ProfileViewController.swift */; };
+		248A994F1C98FAD100DD54DE /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A994E1C98FAD100DD54DE /* ProfileCell.swift */; };
+		248A99511C99158F00DD54DE /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99501C99158F00DD54DE /* ResultController.swift */; };
+		248A99531C99164600DD54DE /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99521C99164600DD54DE /* RestaurantCell.swift */; };
+		248A99551C991AF500DD54DE /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99541C991AF500DD54DE /* DishViewController.swift */; };
+		248A99571C991B2900DD54DE /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99561C991B2900DD54DE /* DishCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248A993E1C98F4B000DD54DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248A991E1C98F4B000DD54DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248A99251C98F4B000DD54DE;
+			remoteInfo = DLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2453058A1CCC0634000CCBC1 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		248A99261C98F4B000DD54DE /* DLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		248A99291C98F4B000DD54DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		248A992B1C98F4B000DD54DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		248A992E1C98F4B000DD54DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		248A99311C98F4B000DD54DE /* DLight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DLight.xcdatamodel; sourceTree = "<group>"; };
+		248A99331C98F4B000DD54DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		248A99361C98F4B000DD54DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		248A99381C98F4B000DD54DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248A993D1C98F4B000DD54DE /* DLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		248A99411C98F4B000DD54DE /* DLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLightTests.swift; sourceTree = "<group>"; };
+		248A99431C98F4B000DD54DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248A994C1C98FAB800DD54DE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		248A994E1C98FAD100DD54DE /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		248A99501C99158F00DD54DE /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		248A99521C99164600DD54DE /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		248A99541C991AF500DD54DE /* DishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishViewController.swift; sourceTree = "<group>"; };
+		248A99561C991B2900DD54DE /* DishCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248A99231C98F4B000DD54DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248A993A1C98F4B000DD54DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		245305891CCC0624000CCBC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2453058A1CCC0634000CCBC1 /* Profile.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		248A991D1C98F4B000DD54DE = {
+			isa = PBXGroup;
+			children = (
+				248A99281C98F4B000DD54DE /* DLight */,
+				248A99401C98F4B000DD54DE /* DLightTests */,
+				248A99271C98F4B000DD54DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		248A99271C98F4B000DD54DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248A99261C98F4B000DD54DE /* DLight.app */,
+				248A993D1C98F4B000DD54DE /* DLightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248A99281C98F4B000DD54DE /* DLight */ = {
+			isa = PBXGroup;
+			children = (
+				245305891CCC0624000CCBC1 /* Model */,
+				248A99291C98F4B000DD54DE /* AppDelegate.swift */,
+				248A992B1C98F4B000DD54DE /* ViewController.swift */,
+				248A99501C99158F00DD54DE /* ResultController.swift */,
+				248A994C1C98FAB800DD54DE /* ProfileViewController.swift */,
+				248A99541C991AF500DD54DE /* DishViewController.swift */,
+				248A994E1C98FAD100DD54DE /* ProfileCell.swift */,
+				248A99561C991B2900DD54DE /* DishCell.swift */,
+				248A99521C99164600DD54DE /* RestaurantCell.swift */,
+				248A992D1C98F4B000DD54DE /* Main.storyboard */,
+				248A99331C98F4B000DD54DE /* Assets.xcassets */,
+				248A99351C98F4B000DD54DE /* LaunchScreen.storyboard */,
+				248A99381C98F4B000DD54DE /* Info.plist */,
+				248A99301C98F4B000DD54DE /* DLight.xcdatamodeld */,
+			);
+			path = DLight;
+			sourceTree = "<group>";
+		};
+		248A99401C98F4B000DD54DE /* DLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				248A99411C98F4B000DD54DE /* DLightTests.swift */,
+				248A99431C98F4B000DD54DE /* Info.plist */,
+			);
+			path = DLightTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		248A99251C98F4B000DD54DE /* DLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248A99461C98F4B000DD54DE /* Build configuration list for PBXNativeTarget "DLight" */;
+			buildPhases = (
+				248A99221C98F4B000DD54DE /* Sources */,
+				248A99231C98F4B000DD54DE /* Frameworks */,
+				248A99241C98F4B000DD54DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLight;
+			productName = DLight;
+			productReference = 248A99261C98F4B000DD54DE /* DLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		248A993C1C98F4B000DD54DE /* DLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248A99491C98F4B000DD54DE /* Build configuration list for PBXNativeTarget "DLightTests" */;
+			buildPhases = (
+				248A99391C98F4B000DD54DE /* Sources */,
+				248A993A1C98F4B000DD54DE /* Frameworks */,
+				248A993B1C98F4B000DD54DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248A993F1C98F4B000DD54DE /* PBXTargetDependency */,
+			);
+			name = DLightTests;
+			productName = DLightTests;
+			productReference = 248A993D1C98F4B000DD54DE /* DLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248A991E1C98F4B000DD54DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zzeleznick;
+				TargetAttributes = {
+					248A99251C98F4B000DD54DE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					248A993C1C98F4B000DD54DE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 248A99251C98F4B000DD54DE;
+					};
+				};
+			};
+			buildConfigurationList = 248A99211C98F4B000DD54DE /* Build configuration list for PBXProject "DLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 248A991D1C98F4B000DD54DE;
+			productRefGroup = 248A99271C98F4B000DD54DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248A99251C98F4B000DD54DE /* DLight */,
+				248A993C1C98F4B000DD54DE /* DLightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248A99241C98F4B000DD54DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248A99371C98F4B000DD54DE /* LaunchScreen.storyboard in Resources */,
+				248A99341C98F4B000DD54DE /* Assets.xcassets in Resources */,
+				248A992F1C98F4B000DD54DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248A993B1C98F4B000DD54DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248A99221C98F4B000DD54DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248A99321C98F4B000DD54DE /* DLight.xcdatamodeld in Sources */,
+				2453058B1CCC0634000CCBC1 /* Profile.swift in Sources */,
+				248A992C1C98F4B000DD54DE /* ViewController.swift in Sources */,
+				248A99551C991AF500DD54DE /* DishViewController.swift in Sources */,
+				248A99571C991B2900DD54DE /* DishCell.swift in Sources */,
+				248A99511C99158F00DD54DE /* ResultController.swift in Sources */,
+				248A994D1C98FAB800DD54DE /* ProfileViewController.swift in Sources */,
+				248A992A1C98F4B000DD54DE /* AppDelegate.swift in Sources */,
+				248A994F1C98FAD100DD54DE /* ProfileCell.swift in Sources */,
+				248A99531C99164600DD54DE /* RestaurantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248A99391C98F4B000DD54DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248A99421C98F4B000DD54DE /* DLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		248A993F1C98F4B000DD54DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 248A99251C98F4B000DD54DE /* DLight */;
+			targetProxy = 248A993E1C98F4B000DD54DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		248A992D1C98F4B000DD54DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248A992E1C98F4B000DD54DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		248A99351C98F4B000DD54DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248A99361C98F4B000DD54DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248A99441C98F4B000DD54DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		248A99451C98F4B000DD54DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		248A99471C98F4B000DD54DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = z.DLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		248A99481C98F4B000DD54DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = z.DLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		248A994A1C98F4B000DD54DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = z.DLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLight.app/DLight";
+			};
+			name = Debug;
+		};
+		248A994B1C98F4B000DD54DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = z.DLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLight.app/DLight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248A99211C98F4B000DD54DE /* Build configuration list for PBXProject "DLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248A99441C98F4B000DD54DE /* Debug */,
+				248A99451C98F4B000DD54DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248A99461C98F4B000DD54DE /* Build configuration list for PBXNativeTarget "DLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248A99471C98F4B000DD54DE /* Debug */,
+				248A99481C98F4B000DD54DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248A99491C98F4B000DD54DE /* Build configuration list for PBXNativeTarget "DLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248A994A1C98F4B000DD54DE /* Debug */,
+				248A994B1C98F4B000DD54DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		248A99301C98F4B000DD54DE /* DLight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				248A99311C98F4B000DD54DE /* DLight.xcdatamodel */,
+			);
+			currentVersion = 248A99311C98F4B000DD54DE /* DLight.xcdatamodel */;
+			path = DLight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 248A991E1C98F4B000DD54DE /* Project object */;
+}
