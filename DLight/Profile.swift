@@ -80,14 +80,25 @@ class AgeRange: CustomStringConvertible {
     }
 }
 
+class Restrictions:  CustomStringConvertible {
+    var members: [String]!
+    init(members: [String]) {
+        self.members = members
+    }
+    var description: String {
+        return self.members.joinWithSeparator(", ")
+    }
+
+}
+
 class Profile: CustomStringConvertible {
     let randID = String.random(32)
     var name: String!
     var ageRange: AgeRange!
     var diabeticStatus: DiabeticStatus!
     var activityLevel: ActivityLevel!
-    var intakeRestrictions: [String]!
-    var dietaryRestrictions: [String]!
+    var intakeRestrictions: Restrictions!
+    var dietaryRestrictions: Restrictions!
     
     init(name:String, age: Int, diabetes: Int, activity: Int,
         intakeRestrictions: [String], dietaryRestrictions: [String]) {
@@ -95,8 +106,8 @@ class Profile: CustomStringConvertible {
             self.ageRange = AgeRange(age: age)
             self.diabeticStatus = DiabeticStatus(rawValue: diabetes)
             self.activityLevel = ActivityLevel(rawValue: activity)
-            self.intakeRestrictions = intakeRestrictions
-            self.dietaryRestrictions = dietaryRestrictions
+            self.intakeRestrictions = Restrictions(members: intakeRestrictions)
+            self.dietaryRestrictions = Restrictions(members: dietaryRestrictions)
     }
     lazy var dict: [String:String] = {
         [unowned self] in

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2453058B1CCC0634000CCBC1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453058A1CCC0634000CCBC1 /* Profile.swift */; };
+		2453058E1CCC5454000CCBC1 /* MProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453058D1CCC5454000CCBC1 /* MProfileCell.swift */; };
+		245305911CCC5529000CCBC1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245305901CCC5529000CCBC1 /* Theme.swift */; };
 		248A992A1C98F4B000DD54DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99291C98F4B000DD54DE /* AppDelegate.swift */; };
 		248A992C1C98F4B000DD54DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A992B1C98F4B000DD54DE /* ViewController.swift */; };
 		248A992F1C98F4B000DD54DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248A992D1C98F4B000DD54DE /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		2453058A1CCC0634000CCBC1 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		2453058D1CCC5454000CCBC1 /* MProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MProfileCell.swift; sourceTree = "<group>"; };
+		245305901CCC5529000CCBC1 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		248A99261C98F4B000DD54DE /* DLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248A99291C98F4B000DD54DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248A992B1C98F4B000DD54DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,23 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		2453058C1CCC5435000CCBC1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				248A994E1C98FAD100DD54DE /* ProfileCell.swift */,
+				2453058D1CCC5454000CCBC1 /* MProfileCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		2453058F1CCC551A000CCBC1 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				245305901CCC5529000CCBC1 /* Theme.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
 		248A991D1C98F4B000DD54DE = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +124,12 @@
 			children = (
 				245305891CCC0624000CCBC1 /* Model */,
 				248A99291C98F4B000DD54DE /* AppDelegate.swift */,
+				2453058C1CCC5435000CCBC1 /* Cells */,
 				248A992B1C98F4B000DD54DE /* ViewController.swift */,
 				248A99501C99158F00DD54DE /* ResultController.swift */,
+				2453058F1CCC551A000CCBC1 /* Theme */,
 				248A994C1C98FAB800DD54DE /* ProfileViewController.swift */,
 				248A99541C991AF500DD54DE /* DishViewController.swift */,
-				248A994E1C98FAD100DD54DE /* ProfileCell.swift */,
 				248A99561C991B2900DD54DE /* DishCell.swift */,
 				248A99521C99164600DD54DE /* RestaurantCell.swift */,
 				248A992D1C98F4B000DD54DE /* Main.storyboard */,
@@ -236,7 +258,9 @@
 				248A99571C991B2900DD54DE /* DishCell.swift in Sources */,
 				248A99511C99158F00DD54DE /* ResultController.swift in Sources */,
 				248A994D1C98FAB800DD54DE /* ProfileViewController.swift in Sources */,
+				2453058E1CCC5454000CCBC1 /* MProfileCell.swift in Sources */,
 				248A992A1C98F4B000DD54DE /* AppDelegate.swift in Sources */,
+				245305911CCC5529000CCBC1 /* Theme.swift in Sources */,
 				248A994F1C98FAD100DD54DE /* ProfileCell.swift in Sources */,
 				248A99531C99164600DD54DE /* RestaurantCell.swift in Sources */,
 			);
