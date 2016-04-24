@@ -1,5 +1,5 @@
 //
-//  MProfileCell.swift
+//  KVCell.swift
 //  DLight
 //
 //  Created by Zach Zeleznick on 4/23/16.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MProfileCell: UITableViewCell {
+class KVCell: UITableViewCell {
     
     let keyLabel = UILabel()
     let valueLabel = UILabel()
@@ -19,7 +19,6 @@ class MProfileCell: UITableViewCell {
         let w = frame.size.width
         let h = frame.size.height
         // print(w,h)
-        print(w,h)
         let offset = CGFloat(h*9.0/12)
         keyLabel.frame = CGRect(x: 10, y: 10, width: w, height: 5*h/12)
         valueLabel.frame = CGRect(x: 30, y: 10+5*h/12, width: w, height: 5*h/12)

@@ -16,14 +16,24 @@ class ViewController: UIViewController {
     }
 
     @IBAction func nextButtonPressed(sender: UIButton) {
-        self.performSegueWithIdentifier("MainToProfile", sender: nil)
+        // MARK - For StoryBoarded View
+        // self.performSegueWithIdentifier("MainToProfile", sender: nil)
+        // MARK - Programmatic View
+        let dest = MProfileViewController()
+        dest.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
+        navigationController?.pushViewController(dest, animated: true)
     }
     
     @IBAction func searchButtonPressed(sender: UIButton) {
         self.performSegueWithIdentifier("MainToResults", sender: nil)
     }
     @IBAction func dishButtonPressed(sender: AnyObject) {
-        self.performSegueWithIdentifier("MainToDishes", sender: nil)
+        // MARK - For StoryBoarded View
+        // self.performSegueWithIdentifier("MainToDishes", sender: nil)
+        // MARK - Programmatic View
+        let dest = MDishViewController()
+        dest.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
+        navigationController?.pushViewController(dest, animated: true)
     }
     
     override func didReceiveMemoryWarning() {
