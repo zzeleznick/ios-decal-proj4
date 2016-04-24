@@ -12,8 +12,10 @@ import CoreData
 class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var myTable: UITableView!
-    private let names = ["Restaurant 1", "Restaurant 2", "Restaurant 3"]
-    private let locations = ["2258 Haste St", "2054 Durant Ave", "1200 Telegraph Ave"]
+    private let names = ["Restaurant 1", "Restaurant 2", "Restaurant 3",
+                        "Cafe 1", "Cafe 2", "Cafe 3"]
+    private let locations = ["2258 Haste St", "2190 Haste St", "2054 Durant Ave",
+                        "2050 Durant Ave", "1950 Durant Ave", "1600 Telegraph Ave"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +44,11 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
         let loc = locations[idx]
         cell.nameLabel.text = name
         cell.locationLabel.text = loc
+        cell.nameLabel.textColor = UIColor(white:0, alpha: 1.0)
+        cell.locationLabel.textColor = UIColor(white:0, alpha: 1.0)
+        cell.locationLabel.font = UIFont(name: Theme.fontName, size: Theme.titleSize)
+        cell.nameLabel.font = UIFont(name: Theme.fontName, size: Theme.titleSize)
+        cell.selectionStyle = UITableViewCellSelectionStyle.None
         return cell
     }
     
