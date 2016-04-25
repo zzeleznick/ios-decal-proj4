@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreData
 
-class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
+class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate, MKMapViewDelegate {
     
     @IBOutlet weak var myTable: UITableView!
     
@@ -25,6 +25,13 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
     
     var geoCoder = CLGeocoder()
     var locationManager: CLLocationManager!
+    
+    var dragPin: MKPointAnnotation!
+    
+    var searchRadius = 500
+    
+    var searchCircle: MKCircle!
+    
     var location: CLLocation! {
         didSet { // update when set
             print("Found Your Location \(location.coordinate)")
@@ -34,6 +41,35 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.myMap.delegate = self
+        let gestureRecognizer = UILongPressGestureRecognizer(target: self, action: "addPin:")
+        gestureRecognizer.numberOfTouchesRequired = 1
+        self.myMap.addGestureRecognizer(gestureRecognizer)
+    }
+    
+    func addPin(gestureRecognizer: UIGestureRecognizer) {
+        print("Add Pin triggered")
+        let touchPoint = gestureRecognizer.locationInView(myMap)
+        let newCoords = myMap.convertPoint(touchPoint, toCoordinateFromView: myMap)
+        if dragPin != nil {
+            dragPin.coordinate = newCoords
+        }
+        if gestureRecognizer.state == UIGestureRecognizerState.Began {
+            print("Touch Start on screen at \(touchPoint)")
+            if dragPin != nil {
+                myMap.removeAnnotation(dragPin)
+            }
+            dragPin = MKPointAnnotation()
+            dragPin.title = "Search Location"
+            dragPin.coordinate = newCoords
+            myMap.addAnnotation(dragPin)
+            /* searchCircle = MKCircle(centerCoordinate: newCoords, radius: CLLocationDistance(searchRadius)) // r in meters
+            */
+        }
+        else if gestureRecognizer.state == UIGestureRecognizerState.Ended {
+            print("Touch End on screen at \(touchPoint)")
+            // dragPin = nil
+        }
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -57,16 +93,18 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         print("Location Manager invoked")
         location = (locations).last!
+        
+        self.loadMapView() // Load the map with location
+        
         locationManager.stopUpdatingLocation() // save the battery
         geoCoder.reverseGeocodeLocation(location) {
             (placements, myError) -> Void in
-            if myError != nil { // handle error
-                print(myError)
+            if let error = myError { // handle error
+                print(error)
             }
-            else {
+            else { // reverse geocode returns results
                 if let placement = placements?.first {
                     print("\(placement.postalCode!)")
-                    self.loadMapView()
                     // self.zipInput = "\(placement.postalCode!)"
                     // self.textField.text = self.zipInput
                 }
@@ -89,6 +127,23 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
         print("User tracking is \(self.myMap.userLocationVisible) and at \(self.myMap.userLocation.coordinate)")
     }
     
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        if annotation is MKPointAnnotation {
+            let pinAnnotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "myPin")
+            pinAnnotationView.pinTintColor = UIColor(hue: 187, saturation: 76, brightness: 95, alpha: 100)
+            pinAnnotationView.animatesDrop = true
+            return pinAnnotationView
+        }
+        return nil
+    }
+    
+    func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
+        let lat = view.annotation?.coordinate.latitude
+        let lon = view.annotation?.coordinate.longitude
+        print("Selected pin at(\(lat!), \(lon!))")
+    }
+    
+    
     func checkCoreLocationPermission(onSuccess: () -> ()) {
         // Note that plist must have the row "NSLocationWhenInUseUsageDescription"
         // this allows us to access location
@@ -108,30 +163,6 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
             print("Unauthorized to use location")
         }
     }
-    
-    /* Gets either a zipcode or location and
-     * then calls the completion function on the result
-    
-    func locationPipe(completion: Int -> () ) {
-        if location != nil && !zipCodeMode {
-            completion(1)
-        }
-        else {
-            let zipcode = textField.text!
-            geoCoder.geocodeAddressString(zipcode){ (placemarks, error) -> Void in
-                print("Entering Zipcode Conversion")
-                if let firstPlacemark = placemarks?[0] {
-                    self.location = firstPlacemark.location!
-                    completion(2)
-                }
-                else {
-                    print("USED \(zipcode)")
-                    print(error)
-                    self.notifyBadZipcode(zipcode)
-                }
-            }
-        }
-    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
