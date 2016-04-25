@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DLightTests/DLightTests.swift"
-            timestampString = "483137558.659867"
+            timestampString = "483238931.594323"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "testExample()"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "testRestaurantConstruction()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

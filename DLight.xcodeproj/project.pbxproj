@@ -14,6 +14,10 @@
 		245305951CCC6D94000CCBC1 /* MDishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245305941CCC6D94000CCBC1 /* MDishViewController.swift */; };
 		245305971CCC6DF8000CCBC1 /* MProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245305961CCC6DF8000CCBC1 /* MProfileViewController.swift */; };
 		245305991CCC79A9000CCBC1 /* NutritionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245305981CCC79A9000CCBC1 /* NutritionCell.swift */; };
+		2453059E1CCD952A000CCBC1 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453059D1CCD952A000CCBC1 /* RestaurantDetailViewController.swift */; };
+		245305A01CCD95DE000CCBC1 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453059F1CCD95DE000CCBC1 /* Restaurant.swift */; };
+		245305A21CCDB1C6000CCBC1 /* MRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245305A11CCDB1C6000CCBC1 /* MRestaurantViewController.swift */; };
+		245305A41CCDBADD000CCBC1 /* Haas.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 245305A31CCDBADD000CCBC1 /* Haas.gpx */; };
 		248A992A1C98F4B000DD54DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99291C98F4B000DD54DE /* AppDelegate.swift */; };
 		248A992C1C98F4B000DD54DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A992B1C98F4B000DD54DE /* ViewController.swift */; };
 		248A992F1C98F4B000DD54DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248A992D1C98F4B000DD54DE /* Main.storyboard */; };
@@ -47,6 +51,10 @@
 		245305941CCC6D94000CCBC1 /* MDishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDishViewController.swift; sourceTree = "<group>"; };
 		245305961CCC6DF8000CCBC1 /* MProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MProfileViewController.swift; sourceTree = "<group>"; };
 		245305981CCC79A9000CCBC1 /* NutritionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionCell.swift; sourceTree = "<group>"; };
+		2453059D1CCD952A000CCBC1 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		2453059F1CCD95DE000CCBC1 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		245305A11CCDB1C6000CCBC1 /* MRestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRestaurantViewController.swift; sourceTree = "<group>"; };
+		245305A31CCDBADD000CCBC1 /* Haas.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Haas.gpx; path = locations/Haas.gpx; sourceTree = "<group>"; };
 		248A99261C98F4B000DD54DE /* DLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248A99291C98F4B000DD54DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248A992B1C98F4B000DD54DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				2453058A1CCC0634000CCBC1 /* Profile.swift */,
+				2453059F1CCD95DE000CCBC1 /* Restaurant.swift */,
 				245305921CCC6CAD000CCBC1 /* Dish.swift */,
 			);
 			name = Models;
@@ -118,6 +127,8 @@
 			children = (
 				248A992B1C98F4B000DD54DE /* ViewController.swift */,
 				248A99501C99158F00DD54DE /* ResultController.swift */,
+				2453059D1CCD952A000CCBC1 /* RestaurantDetailViewController.swift */,
+				245305A11CCDB1C6000CCBC1 /* MRestaurantViewController.swift */,
 				248A994C1C98FAB800DD54DE /* ProfileViewController.swift */,
 				245305961CCC6DF8000CCBC1 /* MProfileViewController.swift */,
 				248A99541C991AF500DD54DE /* DishViewController.swift */,
@@ -131,6 +142,7 @@
 			children = (
 				248A99281C98F4B000DD54DE /* DLight */,
 				248A99401C98F4B000DD54DE /* DLightTests */,
+				245305A31CCDBADD000CCBC1 /* Haas.gpx */,
 				248A99271C98F4B000DD54DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -168,7 +180,7 @@
 				248A99431C98F4B000DD54DE /* Info.plist */,
 			);
 			path = DLightTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -253,6 +265,7 @@
 			files = (
 				248A99371C98F4B000DD54DE /* LaunchScreen.storyboard in Resources */,
 				248A99341C98F4B000DD54DE /* Assets.xcassets in Resources */,
+				245305A41CCDBADD000CCBC1 /* Haas.gpx in Resources */,
 				248A992F1C98F4B000DD54DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,15 +285,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				248A99321C98F4B000DD54DE /* DLight.xcdatamodeld in Sources */,
+				2453059E1CCD952A000CCBC1 /* RestaurantDetailViewController.swift in Sources */,
 				2453058B1CCC0634000CCBC1 /* Profile.swift in Sources */,
 				248A992C1C98F4B000DD54DE /* ViewController.swift in Sources */,
 				248A99551C991AF500DD54DE /* DishViewController.swift in Sources */,
 				248A99571C991B2900DD54DE /* DishCell.swift in Sources */,
 				245305971CCC6DF8000CCBC1 /* MProfileViewController.swift in Sources */,
 				248A99511C99158F00DD54DE /* ResultController.swift in Sources */,
+				245305A01CCD95DE000CCBC1 /* Restaurant.swift in Sources */,
 				245305951CCC6D94000CCBC1 /* MDishViewController.swift in Sources */,
 				248A994D1C98FAB800DD54DE /* ProfileViewController.swift in Sources */,
 				2453058E1CCC5454000CCBC1 /* KVCell.swift in Sources */,
+				245305A21CCDB1C6000CCBC1 /* MRestaurantViewController.swift in Sources */,
 				245305991CCC79A9000CCBC1 /* NutritionCell.swift in Sources */,
 				248A992A1C98F4B000DD54DE /* AppDelegate.swift in Sources */,
 				245305911CCC5529000CCBC1 /* Theme.swift in Sources */,

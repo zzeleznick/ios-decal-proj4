@@ -95,7 +95,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="131" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="B0H-S9-dnw">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="200" width="600" height="336"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="131" id="Blm-Kj-Vwm" customClass="RestaurantCell" customModule="DLight" customModuleProvider="target">
@@ -144,17 +144,25 @@
                                     <outlet property="delegate" destination="aG0-9x-sGo" id="Tbo-G0-p4y"/>
                                 </connections>
                             </tableView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rLS-O5-xWw">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="B0H-S9-dnw" firstAttribute="top" secondItem="rLS-O5-xWw" secondAttribute="bottom" id="4Nz-UQ-r50"/>
                             <constraint firstAttribute="trailingMargin" secondItem="B0H-S9-dnw" secondAttribute="trailing" constant="-20" id="E3A-Zx-rhg"/>
                             <constraint firstItem="B0H-S9-dnw" firstAttribute="leading" secondItem="SFn-6d-fcU" secondAttribute="leadingMargin" constant="-20" id="Gdf-L9-ddt"/>
                             <constraint firstAttribute="bottomMargin" secondItem="B0H-S9-dnw" secondAttribute="bottom" id="J8e-pM-CIb"/>
-                            <constraint firstItem="B0H-S9-dnw" firstAttribute="top" secondItem="SFn-6d-fcU" secondAttribute="topMargin" id="vSq-uk-ag3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rLS-O5-xWw" secondAttribute="trailing" constant="-20" id="Lfk-V6-BEU"/>
+                            <constraint firstItem="rLS-O5-xWw" firstAttribute="leading" secondItem="SFn-6d-fcU" secondAttribute="leadingMargin" constant="-20" id="m66-If-6SY"/>
+                            <constraint firstItem="B0H-S9-dnw" firstAttribute="top" secondItem="SFn-6d-fcU" secondAttribute="topMargin" constant="200" id="vSq-uk-ag3"/>
+                            <constraint firstItem="rLS-O5-xWw" firstAttribute="top" secondItem="SFn-6d-fcU" secondAttribute="topMargin" id="vcd-Xg-OPr"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Results" id="3aE-H9-KCk"/>
                     <connections>
+                        <outlet property="myMap" destination="rLS-O5-xWw" id="zNq-mt-V2F"/>
                         <outlet property="myTable" destination="B0H-S9-dnw" id="lD6-If-jqa"/>
                     </connections>
                 </viewController>
