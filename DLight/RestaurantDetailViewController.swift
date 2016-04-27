@@ -18,31 +18,28 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
     var width: CGFloat!
     var height: CGFloat!
     
-    let Bob = Profile(name:"Bob Dylan", age: 42, diabetes: 2, activity: 0,intakeRestrictions: ["Low Sodium"], dietaryRestrictions: ["No Pork"])
-    
-    var bobKeys: [String]!
-    
     var restaurant: Restaurant!
+    var keys: [String]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Custom Set-up
-        bobKeys = [String](Bob.dict.keys)
-        bobKeys.sortInPlace()
+        keys = [String](restaurant.dict.keys)
+        keys.sortInPlace()
         
         // Programatic Methods
         view = UIView(frame: UIScreen.mainScreen().bounds)
         view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
-        navigationItem.title = "Profile"
+        navigationItem.title = restaurant.name
         width = UIScreen.mainScreen().bounds.size.width
         height = UIScreen.mainScreen().bounds.size.height
-        let tableHeight:CGFloat = CGFloat(bobKeys.count) * cellHeight + 10
+        let tableHeight:CGFloat = CGFloat(keys.count) * cellHeight + 10
         scroller = UIScrollView(frame: CGRect(x: 0, y: 0, width: width, height: height))
         scroller.contentSize = CGSizeMake(width, imageHeight+0.8*cellHeight+tableHeight)
         scroller.delegate = self
         view.addSubview(scroller)
         
-        let image = UIImage(named: "person_wide")
+        let image = UIImage(named: "CaffeOrganica")
         let imageFrame = UIImageView(image: image)
         imageFrame.frame = CGRect(x: 0, y: 0, width: width, height: imageHeight)
         scroller.addSubview(imageFrame)
@@ -59,19 +56,15 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Bob.dict.count
+        return keys.count
     }
     
-    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
-        print("User did tap \(indexPath.row)")
-    }
-        
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let idx = indexPath.row
         let cell = myTable.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! KVCell
-        let key = bobKeys[idx]
+        let key = keys[idx]
         cell.keyLabel.text = key.capitalizedString
-        if let value = Bob.dict[key] {
+        if let value = restaurant.dict[key] {
             cell.valueLabel.text = "\(value)"
         }
         cell.setBounds()

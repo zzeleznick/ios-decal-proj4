@@ -26,6 +26,9 @@ class ViewController: UIViewController {
     
     @IBAction func searchButtonPressed(sender: UIButton) {
         self.performSegueWithIdentifier("MainToResults", sender: nil)
+        /* let dest = MResultController()
+        dest.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
+        navigationController?.pushViewController(dest, animated: true) */
     }
     @IBAction func dishButtonPressed(sender: AnyObject) {
         // MARK - For StoryBoarded View

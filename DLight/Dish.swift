@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import UIKit
 
-class Nutrition: CustomStringConvertible {
+class NutritionWrapper: CustomStringConvertible {
     var calories: Int!
     var carbs: Int!
     var protein: Int!
@@ -34,25 +35,68 @@ class Nutrition: CustomStringConvertible {
         return out }()
     
     var description: String {
-        let out =  "Nutrition{(\(self.calories)}"
-        // self.members.joinWithSeparator(", ")
+        let tmp = [String](dict.keys)
+        let pre = tmp.joinWithSeparator(",")
+        let out =  "Nutrition{\(pre)}"
         return out
     }
 }
 
-class Dish: CustomStringConvertible {
-    let randID = String.random(32)
-    var name: String!
+class IngredientWrapper: CustomStringConvertible {
+    var ingredients: [String]!
     var intakeRestrictions: Restrictions!
     var dietaryRestrictions: Restrictions!
     
-    var nutrition: Nutrition!
+    init(ingredients: [String],intakeRestrictions: [String],dietaryRestrictions: [String]) {
+        self.ingredients = ingredients
+        self.intakeRestrictions = Restrictions(members: intakeRestrictions)
+        self.dietaryRestrictions = Restrictions(members: dietaryRestrictions)
+    }
     
-    init(name:String, nutrition: Nutrition, intakeRestrictions: [String], dietaryRestrictions: [String]) {
+    var description: String {
+        let pt1 = ingredients.joinWithSeparator(", ")
+        let pt2 = intakeRestrictions.description
+        let pt3 = dietaryRestrictions.description
+        let tmp = ["Ingredients: \(pt1)",
+                  "Intake Restrictions: \(pt2)",
+                  "Dietary Restrictions: \(pt3)"
+        ].joinWithSeparator(", ")
+        let out = "IngredientWrapper{\(tmp)}"
+        return out
+    }
+}
+
+class MerchantWrapper {
+    var price: String!
+    var photo: UIImage?
+    let randID = String.random(32)
+    init(price: String, photo: UIImage?) {
+        self.price = price
+        self.photo = photo
+    }
+}
+
+
+class Dish: CustomStringConvertible {
+    var name: String!
+    var nutrition: NutritionWrapper!
+    var ingredients: IngredientWrapper!
+    var merchant: MerchantWrapper!
+    // from children
+    var intakeRestrictions: Restrictions!
+    var dietaryRestrictions: Restrictions!
+    var id: String!
+
+    init(name:String, nutrition: NutritionWrapper,
+        ingredients: IngredientWrapper, merchant: MerchantWrapper) {
             self.name = name
             self.nutrition = nutrition
-            self.intakeRestrictions = Restrictions(members: intakeRestrictions)
-            self.dietaryRestrictions = Restrictions(members: dietaryRestrictions)
+            self.ingredients = ingredients
+            self.merchant = merchant
+            // from children
+            self.intakeRestrictions = ingredients.intakeRestrictions
+            self.dietaryRestrictions = ingredients.dietaryRestrictions
+            self.id = merchant.randID
     }
     lazy var dict: [String:String] = {
         [unowned self] in
@@ -61,9 +105,19 @@ class Dish: CustomStringConvertible {
             "Dietary Restrictions": "\(self.dietaryRestrictions!)",
         ]
         return out }()
-    
     var description: String {
         let out =  "Dish{(\(self.name)}"
         return out
     }
+}
+
+func generateSampleDish() -> Dish {
+    let nutrition = NutritionWrapper(calories: 360, carbs: 10, protein: 34, sugar:8, fat:5)
+    let ingredients = IngredientWrapper(ingredients: ["Atlantic Salmon", "3 blend seasoning", "salt"], intakeRestrictions: ["Low Sodium", "Low Calorie"], dietaryRestrictions: ["Pescatarian"])
+    let merchantInfo = MerchantWrapper(price: "$14", photo: nil)
+    let dish = Dish(name: "Grilled Atlantic Salmon",
+        nutrition: nutrition,
+        ingredients: ingredients,
+        merchant: merchantInfo)
+    return dish
 }

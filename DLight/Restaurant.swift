@@ -8,9 +8,12 @@
 
 import Foundation
 import MapKit
+import UIKit
 
-class BusinessLocation: CustomStringConvertible {
-    
+class BusinessInfo: CustomStringConvertible {
+    let location = CLLocation(latitude: CLLocationDegrees(127.0),
+    longitude: CLLocationDegrees(127.0))
+    var name: String
     var address: String
     var city: String
     var state: String // could use enum
@@ -18,8 +21,9 @@ class BusinessLocation: CustomStringConvertible {
     var zipExtension: String?
     var zipCodeString: String
     
-    init(address: String, city: String, state: String,
+    init(name: String, address: String, city: String, state: String,
         zipCode: String, zipExtension: String?) {
+        self.name = name
         self.address = address
         self.city = city
         self.state = state
@@ -42,32 +46,56 @@ class BusinessLocation: CustomStringConvertible {
     }
 
 }
+
+class Schedule {
+    var hours: String!
+    init(hours: String? = "9am-9pm") {
+        self.hours = hours
+    }
+}
+
 class Restaurant: CustomStringConvertible {
     let randID = String.random(32)
-    
+    /*
+    Name
+    Hours or Schedule
+    Locaton
+    Menu
+    Phone Number
+    Website
+    */
     var name: String
-    var businessLocation: BusinessLocation
-    
+    var schedule: Schedule
+    var menu: Menu
+    var businessInfo: BusinessInfo
+    var image: UIImage?
     var phoneNumber: String?
     var website: String?
     
-    var location: CLLocation
-    
-    init(name:String, businessLocation: BusinessLocation, phoneNumber: String? = nil, website: String? = nil) {
-        self.name = name
-        self.businessLocation = businessLocation
-        self.location = CLLocation(latitude: CLLocationDegrees(127.0),
-            longitude: CLLocationDegrees(127.0))
+    init(businessInfo: BusinessInfo, schedule: Schedule, menu: Menu,
+         image: UIImage? = UIImage(named: "placeholder_image"),
+         phoneNumber: String? = "None Provided", website: String? = "None Provided") {
+        self.businessInfo = businessInfo
+        self.name = businessInfo.name
+        self.schedule = schedule
+        self.menu = menu
+        self.image = image
+        self.phoneNumber = phoneNumber
+        self.website = website
     }
     
     lazy var dict: [String:String] = {
         [unowned self] in
         let out = ["Restaurant": self.name,
+            "Hours": "\(self.schedule.hours)",
+            "Location": "\(self.businessInfo.address)",
+            "Phone Number": "\(self.phoneNumber!)",
+            "Website": "\(self.website!)",
             ]
         return out }()
     
     var description: String {
-        let biz = self.businessLocation
+        let biz = self.businessInfo
         let tmp = ["Name : \(self.name)",
             "Address: \(biz.address)",
             "City:  \(biz.city)",
@@ -80,17 +108,19 @@ class Restaurant: CustomStringConvertible {
 }
 
 func generateSampleRestaurants() -> [Restaurant] {
-    let names = ["Flying Dutchhman", "Irish Dubliner", "Bob's Burgers",
-                 "Caffe Organica", "Le Petite Bite", "Cafe Milan"]
+    let names = ["Caffe Organica",  "La Petite Bite", "Cafe Milan", "Flying Dutchhman", "Irish Dubliner", "Bob's Burgers"]
+    let imageNames = ["CaffeOrganica", "LaPetiteBite", "CafeMilan",
+    "FlyingDutchman", "IrishDubliner", "BobsBurgers"]
     let addresses = ["2258 Haste St", "2190 Haste St", "2054 Durant Ave",
         "2050 Durant Ave", "1950 Durant Ave", "1600 Telegraph Ave"]
-    let city = "Berkeley"
-    let state = "CA"
-    let zipCode = "94704"
+    let phone = "510-876-9210"
+    let schedule = Schedule()
+    let menu = generateSampleMenu()
     var out = [Restaurant]()
     for i in 0..<names.count {
-        let location = BusinessLocation(address: addresses[i], city: city, state: state, zipCode: zipCode, zipExtension: nil)
-        out.append(Restaurant(name: names[i], businessLocation: location))
+        let business = BusinessInfo(name: names[i], address: addresses[i], city: "Berkeley", state: "CA", zipCode: "94704", zipExtension: nil)
+        out.append(Restaurant(businessInfo: business, schedule: schedule, menu: menu, image: UIImage(named: imageNames[i]),
+            phoneNumber: phone, website: "None Provided"))
     }
     return out
 }

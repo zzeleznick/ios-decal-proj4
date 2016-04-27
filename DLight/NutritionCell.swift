@@ -16,7 +16,7 @@ class NutritionCell: UITableViewCell {
     var keyLabels = [UILabel]()
     var valueLabels = [UILabel]()
     
-    func populate(nutrition: Nutrition) {
+    func populate(nutrition: NutritionWrapper) {
         let w = frame.size.width
         let h = frame.size.height
         let myKeys = [String](nutrition.dict.keys)

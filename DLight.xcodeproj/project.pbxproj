@@ -16,7 +16,6 @@
 		245305991CCC79A9000CCBC1 /* NutritionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245305981CCC79A9000CCBC1 /* NutritionCell.swift */; };
 		2453059E1CCD952A000CCBC1 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453059D1CCD952A000CCBC1 /* RestaurantDetailViewController.swift */; };
 		245305A01CCD95DE000CCBC1 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2453059F1CCD95DE000CCBC1 /* Restaurant.swift */; };
-		245305A21CCDB1C6000CCBC1 /* MRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245305A11CCDB1C6000CCBC1 /* MRestaurantViewController.swift */; };
 		245305A41CCDBADD000CCBC1 /* Haas.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 245305A31CCDBADD000CCBC1 /* Haas.gpx */; };
 		248A992A1C98F4B000DD54DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99291C98F4B000DD54DE /* AppDelegate.swift */; };
 		248A992C1C98F4B000DD54DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A992B1C98F4B000DD54DE /* ViewController.swift */; };
@@ -31,6 +30,15 @@
 		248A99531C99164600DD54DE /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99521C99164600DD54DE /* RestaurantCell.swift */; };
 		248A99551C991AF500DD54DE /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99541C991AF500DD54DE /* DishViewController.swift */; };
 		248A99571C991B2900DD54DE /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A99561C991B2900DD54DE /* DishCell.swift */; };
+		249B2B241CCFF7A900708E7D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B2B231CCFF7A900708E7D /* Menu.swift */; };
+		249B2B261CD0074B00708E7D /* CaffeOrganica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 249B2B251CD0074B00708E7D /* CaffeOrganica.jpg */; };
+		249B2B281CD07FC500708E7D /* LaPetiteBite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 249B2B271CD07FC500708E7D /* LaPetiteBite.jpg */; };
+		249B2B2A1CD0801400708E7D /* FlyingDutchman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 249B2B291CD0801400708E7D /* FlyingDutchman.jpg */; };
+		249B2B2C1CD0801800708E7D /* IrishDubliner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 249B2B2B1CD0801800708E7D /* IrishDubliner.jpg */; };
+		249B2B2E1CD0806800708E7D /* CafeMilan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 249B2B2D1CD0806800708E7D /* CafeMilan.jpg */; };
+		249B2B301CD0819C00708E7D /* BobsBurgers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 249B2B2F1CD0819C00708E7D /* BobsBurgers.jpg */; };
+		249B2B331CD0870800708E7D /* MResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B2B321CD0870800708E7D /* MResultController.swift */; };
+		249B2B351CD08A2100708E7D /* MRestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B2B341CD08A2100708E7D /* MRestaurantCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +61,6 @@
 		245305981CCC79A9000CCBC1 /* NutritionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionCell.swift; sourceTree = "<group>"; };
 		2453059D1CCD952A000CCBC1 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		2453059F1CCD95DE000CCBC1 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
-		245305A11CCDB1C6000CCBC1 /* MRestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRestaurantViewController.swift; sourceTree = "<group>"; };
 		245305A31CCDBADD000CCBC1 /* Haas.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Haas.gpx; path = locations/Haas.gpx; sourceTree = "<group>"; };
 		248A99261C98F4B000DD54DE /* DLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248A99291C98F4B000DD54DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +79,15 @@
 		248A99521C99164600DD54DE /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
 		248A99541C991AF500DD54DE /* DishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishViewController.swift; sourceTree = "<group>"; };
 		248A99561C991B2900DD54DE /* DishCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
+		249B2B231CCFF7A900708E7D /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		249B2B251CD0074B00708E7D /* CaffeOrganica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CaffeOrganica.jpg; sourceTree = "<group>"; };
+		249B2B271CD07FC500708E7D /* LaPetiteBite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaPetiteBite.jpg; sourceTree = "<group>"; };
+		249B2B291CD0801400708E7D /* FlyingDutchman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlyingDutchman.jpg; sourceTree = "<group>"; };
+		249B2B2B1CD0801800708E7D /* IrishDubliner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IrishDubliner.jpg; sourceTree = "<group>"; };
+		249B2B2D1CD0806800708E7D /* CafeMilan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CafeMilan.jpg; sourceTree = "<group>"; };
+		249B2B2F1CD0819C00708E7D /* BobsBurgers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BobsBurgers.jpg; sourceTree = "<group>"; };
+		249B2B321CD0870800708E7D /* MResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MResultController.swift; sourceTree = "<group>"; };
+		249B2B341CD08A2100708E7D /* MRestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRestaurantCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,7 @@
 			children = (
 				2453058A1CCC0634000CCBC1 /* Profile.swift */,
 				2453059F1CCD95DE000CCBC1 /* Restaurant.swift */,
+				249B2B231CCFF7A900708E7D /* Menu.swift */,
 				245305921CCC6CAD000CCBC1 /* Dish.swift */,
 			);
 			name = Models;
@@ -107,6 +124,7 @@
 			children = (
 				248A99561C991B2900DD54DE /* DishCell.swift */,
 				248A99521C99164600DD54DE /* RestaurantCell.swift */,
+				249B2B341CD08A2100708E7D /* MRestaurantCell.swift */,
 				248A994E1C98FAD100DD54DE /* ProfileCell.swift */,
 				2453058D1CCC5454000CCBC1 /* KVCell.swift */,
 				245305981CCC79A9000CCBC1 /* NutritionCell.swift */,
@@ -127,8 +145,8 @@
 			children = (
 				248A992B1C98F4B000DD54DE /* ViewController.swift */,
 				248A99501C99158F00DD54DE /* ResultController.swift */,
+				249B2B321CD0870800708E7D /* MResultController.swift */,
 				2453059D1CCD952A000CCBC1 /* RestaurantDetailViewController.swift */,
-				245305A11CCDB1C6000CCBC1 /* MRestaurantViewController.swift */,
 				248A994C1C98FAB800DD54DE /* ProfileViewController.swift */,
 				245305961CCC6DF8000CCBC1 /* MProfileViewController.swift */,
 				248A99541C991AF500DD54DE /* DishViewController.swift */,
@@ -165,6 +183,7 @@
 				245305891CCC0624000CCBC1 /* Models */,
 				2453059C1CCC92C1000CCBC1 /* Views */,
 				248A99331C98F4B000DD54DE /* Assets.xcassets */,
+				249B2B311CD081B100708E7D /* Assets */,
 				248A992D1C98F4B000DD54DE /* Main.storyboard */,
 				248A99351C98F4B000DD54DE /* LaunchScreen.storyboard */,
 				248A99381C98F4B000DD54DE /* Info.plist */,
@@ -181,6 +200,19 @@
 			);
 			path = DLightTests;
 			sourceTree = SOURCE_ROOT;
+		};
+		249B2B311CD081B100708E7D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				249B2B251CD0074B00708E7D /* CaffeOrganica.jpg */,
+				249B2B271CD07FC500708E7D /* LaPetiteBite.jpg */,
+				249B2B2D1CD0806800708E7D /* CafeMilan.jpg */,
+				249B2B291CD0801400708E7D /* FlyingDutchman.jpg */,
+				249B2B2B1CD0801800708E7D /* IrishDubliner.jpg */,
+				249B2B2F1CD0819C00708E7D /* BobsBurgers.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -263,10 +295,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249B2B261CD0074B00708E7D /* CaffeOrganica.jpg in Resources */,
+				249B2B2A1CD0801400708E7D /* FlyingDutchman.jpg in Resources */,
 				248A99371C98F4B000DD54DE /* LaunchScreen.storyboard in Resources */,
 				248A99341C98F4B000DD54DE /* Assets.xcassets in Resources */,
+				249B2B2C1CD0801800708E7D /* IrishDubliner.jpg in Resources */,
 				245305A41CCDBADD000CCBC1 /* Haas.gpx in Resources */,
+				249B2B301CD0819C00708E7D /* BobsBurgers.jpg in Resources */,
 				248A992F1C98F4B000DD54DE /* Main.storyboard in Resources */,
+				249B2B281CD07FC500708E7D /* LaPetiteBite.jpg in Resources */,
+				249B2B2E1CD0806800708E7D /* CafeMilan.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +324,10 @@
 			files = (
 				248A99321C98F4B000DD54DE /* DLight.xcdatamodeld in Sources */,
 				2453059E1CCD952A000CCBC1 /* RestaurantDetailViewController.swift in Sources */,
+				249B2B331CD0870800708E7D /* MResultController.swift in Sources */,
 				2453058B1CCC0634000CCBC1 /* Profile.swift in Sources */,
 				248A992C1C98F4B000DD54DE /* ViewController.swift in Sources */,
+				249B2B351CD08A2100708E7D /* MRestaurantCell.swift in Sources */,
 				248A99551C991AF500DD54DE /* DishViewController.swift in Sources */,
 				248A99571C991B2900DD54DE /* DishCell.swift in Sources */,
 				245305971CCC6DF8000CCBC1 /* MProfileViewController.swift in Sources */,
@@ -296,8 +336,8 @@
 				245305951CCC6D94000CCBC1 /* MDishViewController.swift in Sources */,
 				248A994D1C98FAB800DD54DE /* ProfileViewController.swift in Sources */,
 				2453058E1CCC5454000CCBC1 /* KVCell.swift in Sources */,
-				245305A21CCDB1C6000CCBC1 /* MRestaurantViewController.swift in Sources */,
 				245305991CCC79A9000CCBC1 /* NutritionCell.swift in Sources */,
+				249B2B241CCFF7A900708E7D /* Menu.swift in Sources */,
 				248A992A1C98F4B000DD54DE /* AppDelegate.swift in Sources */,
 				245305911CCC5529000CCBC1 /* Theme.swift in Sources */,
 				248A994F1C98FAD100DD54DE /* ProfileCell.swift in Sources */,

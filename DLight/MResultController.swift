@@ -1,8 +1,8 @@
 //
-//  ResultController.swift
+//  MResultController.swift
 //  DLight
 //
-//  Created by Zach Zeleznick on 3/15/16.
+//  Created by Zach Zeleznick on 4/26/16.
 //  Copyright © 2016 zzeleznick. All rights reserved.
 //
 
@@ -10,16 +10,14 @@ import UIKit
 import MapKit
 import CoreData
 
-class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate, MKMapViewDelegate {
+class MResultController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate, MKMapViewDelegate {
     
-    @IBOutlet weak var myTable: UITableView!
+    var myTable: UITableView!
+    var myMap: MKMapView!
     
-    @IBOutlet weak var myMap: MKMapView!
-    
-    private let names = ["Restaurant 1", "Restaurant 2", "Restaurant 3",
-                        "Cafe 1", "Cafe 2", "Cafe 3"]
-    private let locations = ["2258 Haste St", "2190 Haste St", "2054 Durant Ave",
-                        "2050 Durant Ave", "1950 Durant Ave", "1600 Telegraph Ave"]
+    var height: CGFloat!
+    var width: CGFloat!
+    let cellHeight: CGFloat = 120
     
     let restaurants = generateSampleRestaurants()
     
@@ -29,7 +27,6 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
     var dragPin: MKPointAnnotation!
     
     var searchRadius = 500
-    
     var searchCircle: MKCircle!
     
     var location: CLLocation! {
@@ -38,12 +35,33 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
         }
     }
     
+    func placeElements() {
+        view = UIView(frame: UIScreen.mainScreen().bounds)
+        view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
+        navigationItem.title = "Profile"
+        width = UIScreen.mainScreen().bounds.size.width
+        height = UIScreen.mainScreen().bounds.size.height
+        let mapFrame = CGRect(x: 0, y: 0, width: width, height: 200)
+        myMap = MKMapView(frame: mapFrame)
+        view.addSubview(myMap)
+        let tableFrame = CGRect(x: 0, y: 200, width: width, height: height-200)
+        myTable = UITableView(frame: tableFrame)
+        view.addSubview(myTable)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        placeElements()
+        
+        myTable.rowHeight = cellHeight
+        myTable.registerClass(MRestaurantCell.self, forCellReuseIdentifier: "cell")
+        myTable.delegate = self
+        myTable.dataSource = self
+
         self.myMap.delegate = self
         let gestureRecognizer = UILongPressGestureRecognizer(target: self, action: "addPin:")
-    
+        
         gestureRecognizer.numberOfTouchesRequired = 1
         self.myMap.addGestureRecognizer(gestureRecognizer)
     }
@@ -87,7 +105,7 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
         print("Location requested")
         locationManager.startUpdatingLocation()
     }
-
+    
     // MARK: - CLLocationManagerDelegate
     // Triggered by .startUpdating Location
     // Will update the location and the zipcode on screen
@@ -184,20 +202,19 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let idx = indexPath.row
-        let cell = myTable.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! RestaurantCell
-        
+        let cell = myTable.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! MRestaurantCell
         let name = restaurants[idx].name
         let loc = restaurants[idx].businessInfo.address
-        // let name = names[idx]
-        // let loc = locations[idx]
-        if let image = restaurants[idx].image {
-            cell.myImage.clipsToBounds = true
-            cell.myImage.contentMode = UIViewContentMode.ScaleAspectFill
-            cell.myImage.image = image
-        }
+        
         cell.nameLabel.text = name
         cell.locationLabel.text = loc
-        cell.selectionStyle = UITableViewCellSelectionStyle.None
+        cell.setBounds()
+        if let image = restaurants[idx].image {
+            print("Image loading")
+            cell.myImageView.contentMode = .ScaleAspectFill
+            cell.myImageView.image = image
+        }
+        cell.selectionStyle = .None
         return cell
     }
     

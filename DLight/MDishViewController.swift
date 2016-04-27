@@ -33,9 +33,9 @@ class MDishViewController: UIViewController, UITableViewDelegate, UITableViewDat
         "user rating": "a- 362 reviews", "nutrition facts": "320 calories"]
     
     let dish = Dish(name: "Grilled Atlantic Salmon",
-        nutrition:  Nutrition(calories: 360, carbs: 10, protein: 34, sugar:8, fat:5),
-        intakeRestrictions: ["Low Sodium", "Low Calorie"],
-        dietaryRestrictions: ["Pescatarian"])
+        nutrition:  NutritionWrapper(calories: 360, carbs: 10, protein: 34, sugar:8, fat:5),
+        ingredients: IngredientWrapper(ingredients: ["Atlantic Salmon", "3 blend seasoning", "salt"], intakeRestrictions: ["Low Sodium", "Low Calorie"], dietaryRestrictions: ["Pescatarian"]),
+        merchant: MerchantWrapper(price: "$14", photo: nil) )
     
     var dishKeys: [String]!
 

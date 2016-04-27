@@ -20,6 +20,10 @@ class RestaurantCell: UITableViewCell {
   
     override func awakeFromNib() {
         super.awakeFromNib()
+        nameLabel.textColor = UIColor(white: 0.95, alpha: 1.0)
+        nameLabel.font = UIFont(name: Theme.fontBoldName, size: Theme.titleSize)
+        locationLabel.textColor = UIColor(white: 0.95, alpha: 1.0)
+        locationLabel.font = UIFont(name: Theme.fontName, size: Theme.titleSize)
     }
     
     override func setSelected(selected: Bool, animated: Bool) {

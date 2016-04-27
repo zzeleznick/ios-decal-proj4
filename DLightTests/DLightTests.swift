@@ -38,6 +38,10 @@ class DLightTests: XCTestCase {
         print(restaurants)
     }
     
+    func testMenuConstruction() {
+        let menu = generateSampleMenu()
+        print(menu)
+    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
