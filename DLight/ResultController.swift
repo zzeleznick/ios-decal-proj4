@@ -41,6 +41,7 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        myTable.separatorStyle = .None
         self.myMap.delegate = self
         let gestureRecognizer = UILongPressGestureRecognizer(target: self, action: "addPin:")
     
@@ -180,6 +181,10 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return restaurants.count
         // return names.count
+    }
+    
+    func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        // pass
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

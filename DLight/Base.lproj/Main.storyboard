@@ -101,16 +101,23 @@
                                 <rect key="frame" x="0.0" y="200" width="600" height="336"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="131" id="Blm-Kj-Vwm" customClass="RestaurantCell" customModule="DLight" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="131"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="130" id="Blm-Kj-Vwm" customClass="RestaurantCell" customModule="DLight" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Blm-Kj-Vwm" id="7pe-L6-JKb">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="130.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="129.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qRF-Vl-zxV">
-                                                    <rect key="frame" x="-12" y="8" width="624" height="114.5"/>
+                                                    <rect key="frame" x="-12" y="8" width="624" height="113.5"/>
                                                 </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IX8-tb-vjq">
+                                                    <rect key="frame" x="-12" y="82" width="624" height="40"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.60471443965517246" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="WDN-g1-o4s"/>
+                                                    </constraints>
+                                                </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylM-7H-S6p">
                                                     <rect key="frame" x="18" y="91" width="45" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -126,15 +133,19 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="ylM-7H-S6p" secondAttribute="bottom" constant="10" id="4JP-sN-D1u"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="IX8-tb-vjq" secondAttribute="bottom" id="6gB-7L-fog"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="bd2-gn-eRh" secondAttribute="bottom" constant="10" id="6iT-Hj-ccd"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="bd2-gn-eRh" secondAttribute="trailing" constant="20" id="BXE-2A-CXX"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="qRF-Vl-zxV" secondAttribute="bottom" id="Btr-St-WY9"/>
                                                 <constraint firstItem="ylM-7H-S6p" firstAttribute="leading" secondItem="7pe-L6-JKb" secondAttribute="leadingMargin" constant="10" id="FYk-N8-Osg"/>
+                                                <constraint firstItem="IX8-tb-vjq" firstAttribute="leading" secondItem="7pe-L6-JKb" secondAttribute="leadingMargin" constant="-20" id="a7s-sq-hPC"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="qRF-Vl-zxV" secondAttribute="trailing" constant="-20" id="eE8-LM-8eS"/>
                                                 <constraint firstItem="qRF-Vl-zxV" firstAttribute="top" secondItem="7pe-L6-JKb" secondAttribute="topMargin" id="eel-03-ZT5"/>
                                                 <constraint firstItem="qRF-Vl-zxV" firstAttribute="leading" secondItem="7pe-L6-JKb" secondAttribute="leadingMargin" constant="-20" id="ezV-oW-NLc"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="IX8-tb-vjq" secondAttribute="trailing" constant="-20" id="huN-SX-2OE"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
                                             <outlet property="locationLabel" destination="bd2-gn-eRh" id="hYO-2b-9mk"/>
                                             <outlet property="myImage" destination="qRF-Vl-zxV" id="sSa-Al-2C0"/>
