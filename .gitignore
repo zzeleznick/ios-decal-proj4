@@ -1,2 +1,5 @@
 *.pyc
+Pods/
+DLight.xcodeproj/
+DLight.xcworkspace/
 api/secret.txt
