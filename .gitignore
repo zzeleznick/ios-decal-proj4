@@ -31,3 +31,9 @@ xcuserdata/
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
+
+## Pods and workspace
+Pods/
+DLight.xcodeproj/
+DLight.xcworkspace/
+api/secret.txt
