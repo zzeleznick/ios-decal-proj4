@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 /*
 Menus need to link dishes which contain wrappers for
 {Nutrition, Ingredients, Merchant}
@@ -47,9 +47,9 @@ func generateSampleMenu() -> Menu {
     let ingredientWrappers = [0: IngredientWrapper(ingredients: ["Atlantic Salmon", "3 blend seasoning", "salt"], intakeRestrictions: ["Low Sodium", "Low Calorie"], dietaryRestrictions: ["Pescatarian"]),
         1: IngredientWrapper(ingredients: ["Aged USDA Prime Steak", "3 blend seasoning", "salt"], intakeRestrictions: ["Low Sodium", "Low Calorie"], dietaryRestrictions: ["No Dairy"]),
         2: IngredientWrapper(ingredients: ["lettuce", "cucumbers", "tomatoes", "onions", "seasoning"], intakeRestrictions: ["Low Sodium", "Low Calorie"], dietaryRestrictions: ["Vegetarian"])]
-    let merchantInfo = [0: MerchantWrapper(price: "$14", photo: nil),
-        1: MerchantWrapper(price: "$16", photo: nil),
-        2: MerchantWrapper(price: "$12", photo: nil)]
+    let merchantInfo = [0: MerchantWrapper(price: "$14", photo: UIImage(named: "salmon_wide")),
+        1: MerchantWrapper(price: "$16", photo: UIImage(named: "steak_wide")),
+        2: MerchantWrapper(price: "$12", photo: UIImage(named: "salad_wide"))]
     var dishes = [Dish]()
     for i in 0..<names.count {
         let dish = Dish(name: names[i], nutrition: nutritonWrappers[i]!, ingredients: ingredientWrappers[i]!, merchant: merchantInfo[i]!)

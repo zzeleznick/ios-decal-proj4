@@ -1,0 +1,1053 @@
+{
+    "region": {
+        "span": {
+            "latitude_delta": 0.009852699999996162,
+            "longitude_delta": 0.006925489999986212
+        },
+        "center": {
+            "latitude": 37.8712175,
+            "longitude": -122.25696595
+        }
+    },
+    "total": 863,
+    "businesses": [
+        {
+            "is_claimed": false,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/the-campanile-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 71,
+            "name": "The Campanile",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/o2qZSHqQS0t6at401WHbRw/ms.jpg",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/the-campanile-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "city": "Berkeley",
+                "display_address": [
+                    "The Campanile",
+                    "UC Berkeley Campus",
+                    "UC Area",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "UC Area"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "The Campanile",
+                    "UC Berkeley Campus"
+                ],
+                "coordinate": {
+                    "latitude": 37.872052,
+                    "longitude": -122.257822
+                },
+                "state_code": "CA"
+            },
+            "snippet_text": "Standing an impressive 307 feet, the Sather Tower is an clocktower on the Berkeley campus.\n\nOriginally opened in 1917, one can now ride an elevator for...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/lU7N3fhMscPSlet6NxKbcw/ms.jpg",
+            "categories": [
+                [
+                    "Landmarks & Historical Buildings",
+                    "landmarks"
+                ]
+            ],
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "the-campanile-berkeley",
+            "is_closed": false,
+            "distance": 354.3528766523657
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/tivoli-caffe-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 149,
+            "name": "Tivoli Caffe",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/WAXc5SUVpqWe46ipZcFKvg/ms.jpg",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/tivoli-caffe-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bowditch St & Barrow Ln",
+                "city": "Berkeley",
+                "display_address": [
+                    "2554 Bancroft  Way",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2554 Bancroft  Way"
+                ],
+                "coordinate": {
+                    "latitude": 37.8687827,
+                    "longitude": -122.2578922
+                },
+                "state_code": "CA"
+            },
+            "phone": "5107041332",
+            "snippet_text": "The family that runs this place is awesome, the food is great, and the prices are awesome. \n\nThe Po'boy sandwich was amazing, and they have an awesome...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/f6nbFR99modzUXn3lS6PVg/ms.jpg",
+            "categories": [
+                [
+                    "Cafes",
+                    "cafes"
+                ],
+                [
+                    "Pizza",
+                    "pizza"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "display_phone": "+1-510-704-1332",
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "tivoli-caffe-berkeley",
+            "is_closed": false,
+            "distance": 478.7553730679423
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/top-dog-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 1722,
+            "name": "Top Dog",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/_jlXUg1s3E9RrDTctnR6IA/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/top-dog-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bowditch St & Telegraph Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2534 Durant Ave",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2534 Durant Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.86772,
+                    "longitude": -122.25739
+                },
+                "state_code": "CA"
+            },
+            "menu_date_updated": 1441948780,
+            "phone": "5108435967",
+            "snippet_text": "I've had the pleasure of getting Top Dog with the two flyest guys I know. If I don't go with them, this place has 4.5\n\nDefinitely get the hot link if you...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/w-ugseVxSdahX34ECSX_lw/ms.jpg",
+            "categories": [
+                [
+                    "Hot Dogs",
+                    "hotdog"
+                ]
+            ],
+            "display_phone": "+1-510-843-5967",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "top-dog-berkeley",
+            "is_closed": false,
+            "distance": 537.0149774049708
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/pizzahhh-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 142,
+            "name": "Pizzahhh!",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/cXjraFWzC3iydkjj_eqtsQ/ms.jpg",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/pizzahhh-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Euclid Ave & Le Roy Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2503 Hearst Ave",
+                    "Berkeley, CA 94709"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "94709",
+                "country_code": "US",
+                "address": [
+                    "2503 Hearst Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.875148281455,
+                    "longitude": -122.259898781776
+                },
+                "state_code": "CA"
+            },
+            "phone": "5108431241",
+            "snippet_text": "This pizza place is definitely a well kept secret on Northside that shouldn't be kept secret! \n\nThe pizza place is in the Northside \"Asian ghetto\" food...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ph3uHRa_jvYybs0mijFDcw/ms.jpg",
+            "categories": [
+                [
+                    "Pizza",
+                    "pizza"
+                ]
+            ],
+            "display_phone": "+1-510-843-1241",
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "pizzahhh-berkeley",
+            "is_closed": false,
+            "distance": 675.2710685747006
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/caffe-strada-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 637,
+            "name": "Caffe Strada",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/_mcxENl7Pw9hz-QoFtRnQA/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/caffe-strada-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bancroft Way & Durant Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2300 College Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2300 College Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8691282315142,
+                    "longitude": -122.254829406738
+                },
+                "state_code": "CA"
+            },
+            "phone": "5108435282",
+            "snippet_text": "Okay,  here's the thing: stick to their coffee and it's 5-stars easy. Price, quality, speed, efficiency, service, ambiance (great, great ambiance), and...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/EARx93lCQ2-4u8M4lhqxGg/ms.jpg",
+            "categories": [
+                [
+                    "Coffee & Tea",
+                    "coffee"
+                ]
+            ],
+            "display_phone": "+1-510-843-5282",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "caffe-strada-berkeley",
+            "is_closed": false,
+            "distance": 293.61740892261815
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/heavenly-vietnamese-fusion-food-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 83,
+            "name": "Heavenly - Vietnamese Fusion Food",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/UWE02n_NvHJ_EZeVn9uKow/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/heavenly-vietnamese-fusion-food-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "city": "Berkeley",
+                "display_address": [
+                    "2701-2717 Bancroft Way",
+                    "UC Area",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "UC Area"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2701-2717 Bancroft Way"
+                ],
+                "coordinate": {
+                    "latitude": 37.8695145,
+                    "longitude": -122.2539444
+                },
+                "state_code": "CA"
+            },
+            "phone": "5105028768",
+            "snippet_text": "BERKELEY PLEASE DON'T FORCE HEAVENLY TO LEAVE.  I was so upset when I heard about the food trucks on Bancroft/College not getting their permits renewed so I...",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/liQhceJ_2oHxBFn0t7YEsQ/ms.jpg",
+            "categories": [
+                [
+                    "Vietnamese",
+                    "vietnamese"
+                ],
+                [
+                    "Food Trucks",
+                    "foodtrucks"
+                ],
+                [
+                    "Comfort Food",
+                    "comfortfood"
+                ]
+            ],
+            "display_phone": "+1-510-502-8768",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "heavenly-vietnamese-fusion-food-berkeley",
+            "is_closed": false,
+            "distance": 256.1081764872348
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/dojo-dog-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 116,
+            "name": "Dojo Dog",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/-us6gH4ua6egQzrnFrNi0w/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/dojo-dog-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "city": "Berkeley",
+                "display_address": [
+                    "Bancroft Way and College Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "Bancroft Way and College Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8692972,
+                    "longitude": -122.2546034
+                },
+                "state_code": "CA"
+            },
+            "phone": "5108593814",
+            "snippet_text": "Do you remember those Carl's Jr. commercial? The one that goes, \"If it doesn't get all over the place, it doesn't belong in your face.\" Yes? Well, Dojo Dog...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5YcbsPvwSdQd3gnkqgSnqA/ms.jpg",
+            "categories": [
+                [
+                    "Asian Fusion",
+                    "asianfusion"
+                ],
+                [
+                    "Hot Dogs",
+                    "hotdog"
+                ],
+                [
+                    "Food Trucks",
+                    "foodtrucks"
+                ]
+            ],
+            "display_phone": "+1-510-859-3814",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "dojo-dog-berkeley",
+            "is_closed": false,
+            "distance": 270.03426498367395
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/gypsys-trattoria-italiano-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 1094,
+            "name": "Gypsy's Trattoria Italiano",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/qCTCp0KuVqBXKVw97oCpyA/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/gypsys-trattoria-italiano-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bowditch St & Telegraph Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2519 Durant Ave",
+                    "Ste A",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2519 Durant Ave",
+                    "Ste A"
+                ],
+                "coordinate": {
+                    "latitude": 37.868045487626,
+                    "longitude": -122.25808485862
+                },
+                "state_code": "CA"
+            },
+            "phone": "5105484860",
+            "snippet_text": "This is definitely one of the better pasta places in Berkeley. It's affordable and delicious, and only minutes away from campus and dorms. \n \nI've tried all...",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/iwfBk-H2NGvbzaeC089GZg/ms.jpg",
+            "categories": [
+                [
+                    "Italian",
+                    "italian"
+                ]
+            ],
+            "display_phone": "+1-510-548-4860",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "gypsys-trattoria-italiano-berkeley",
+            "is_closed": false,
+            "distance": 548.1729608649907
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/montagues-gourmet-sandwiches-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 213,
+            "name": "Montague's Gourmet Sandwiches",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/1qlCZKYnQpABww4aQ078fw/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/montagues-gourmet-sandwiches-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "city": "Berkeley",
+                "display_address": [
+                    "2510 Channing Way",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94720"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94720",
+                "country_code": "US",
+                "address": [
+                    "2510 Channing Way"
+                ],
+                "coordinate": {
+                    "latitude": 37.8668365,
+                    "longitude": -122.2582779
+                },
+                "state_code": "CA"
+            },
+            "phone": "5106656007",
+            "snippet_text": "Honestly the fire. If this isn't part of your weekly routine, you hate your life right about now.  Serve up something like turkey and pastrami on the dopest...",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/EiFKJps6KHhwhgPB55Bc6A/ms.jpg",
+            "categories": [
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "display_phone": "+1-510-665-6007",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "montagues-gourmet-sandwiches-berkeley-2",
+            "is_closed": false,
+            "distance": 670.1525396292092
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/i-bs-hoagies-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 389,
+            "name": "I B's Hoagies",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/2rFB6rA88KIsNcHsKzau7g/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/i-bs-hoagies-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bowditch St & Telegraph Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2513 Durant Ave",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2513 Durant Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.868048,
+                    "longitude": -122.258478
+                },
+                "state_code": "CA"
+            },
+            "menu_date_updated": 1441948750,
+            "phone": "5108411681",
+            "snippet_text": "Every once in a while I'll crave a philly cheesesteak. Well that day came, and IBs Hoagies delivered! I had the original cheesesteak with cheese whiz. I...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yLrfSdFRpOC9tHysJckRiw/ms.jpg",
+            "categories": [
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ],
+                [
+                    "Burgers",
+                    "burgers"
+                ]
+            ],
+            "display_phone": "+1-510-841-1681",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "i-bs-hoagies-berkeley",
+            "is_closed": false,
+            "distance": 572.1108549698383
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/smokes-poutinerie-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 496,
+            "name": "Smoke's Poutinerie",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/fzY88BoZT5H8QZzsEXhSYA/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/smokes-poutinerie-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bowditch St & Telegraph Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2518 Durant Ave",
+                    "Unit A",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2518 Durant Ave",
+                    "Unit A"
+                ],
+                "coordinate": {
+                    "latitude": 37.8678067612351,
+                    "longitude": -122.25806995227
+                },
+                "state_code": "CA"
+            },
+            "menu_date_updated": 1460829865,
+            "phone": "5105407500",
+            "snippet_text": "SP takes poutine to a whole new level. My friend and I visited on a Saturday afternoon and it wasn't crowded at all. As you enter, you are not only greeted...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/19Ip51xlfVhWYtbwSwmcMg/ms.jpg",
+            "categories": [
+                [
+                    "Comfort Food",
+                    "comfortfood"
+                ],
+                [
+                    "Fast Food",
+                    "hotdogs"
+                ],
+                [
+                    "Poutineries",
+                    "poutineries"
+                ]
+            ],
+            "display_phone": "+1-510-540-7500",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "smokes-poutinerie-berkeley",
+            "is_closed": false,
+            "distance": 566.9838891549276
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/tea-press-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 295,
+            "name": "Tea Press",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/UWE02n_NvHJ_EZeVn9uKow/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/tea-press-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bowditch St & Barrow Ln",
+                "city": "Berkeley",
+                "display_address": [
+                    "2552 Bancroft Way",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2552 Bancroft Way"
+                ],
+                "coordinate": {
+                    "latitude": 37.868828997016,
+                    "longitude": -122.257980331779
+                },
+                "state_code": "CA"
+            },
+            "phone": "5106651888",
+            "snippet_text": "Ok, so first of all if you're looking for the best quality boba in Berkeley this is NOT the place for you.  Leave and go to Sharetea/Asha's/U Cha.  HOWEVER,...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/64zRTVw_42GAIBIDHfVRaQ/ms.jpg",
+            "categories": [
+                [
+                    "Coffee & Tea",
+                    "coffee"
+                ]
+            ],
+            "display_phone": "+1-510-665-1888",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "tea-press-berkeley-2",
+            "is_closed": false,
+            "distance": 476.70048406510386
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/cheese-n-stuff-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 231,
+            "name": "Cheese 'N' Stuff",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/K7MySI3FckkPZeQscmRJsQ/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/cheese-n-stuff-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Telegraph Ave & Dana St",
+                "city": "Berkeley",
+                "display_address": [
+                    "2442 Durant Ave",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2442 Durant Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8675802752215,
+                    "longitude": -122.259550841607
+                },
+                "state_code": "CA"
+            },
+            "phone": "5108439233",
+            "snippet_text": "One of my favorite places to eat in Berkeley. I would recommend this place to anyone looking for a cheap delicious sandwich made within a minute of your...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/v2cvDARTjC-a58ZfeJ-YAg/ms.jpg",
+            "categories": [
+                [
+                    "Delis",
+                    "delis"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "display_phone": "+1-510-843-9233",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "cheese-n-stuff-berkeley",
+            "is_closed": false,
+            "distance": 676.4117911861724
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/koja-kitchen-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 359,
+            "name": "KoJa Kitchen",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/A1v0K1gUJuhnmqPaOMQFeg/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/koja-kitchen-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Channing Way & Durant Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2395 Telegraph Ave",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2395 Telegraph Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8670846,
+                    "longitude": -122.2587409
+                },
+                "state_code": "CA"
+            },
+            "menu_date_updated": 1461733587,
+            "phone": "5109625652",
+            "snippet_text": "REVIEWER #359\n\nOn 4/23/16 I swear I died and went to food heaven!\n\nCan we all have a moment of silence as we prepare to hear how good the food at Koja...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/2B8YYwj4HnTwFl7JW2e3TA/ms.jpg",
+            "categories": [
+                [
+                    "Asian Fusion",
+                    "asianfusion"
+                ],
+                [
+                    "Japanese",
+                    "japanese"
+                ],
+                [
+                    "Korean",
+                    "korean"
+                ]
+            ],
+            "display_phone": "+1-510-962-5652",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "eat24",
+            "id": "koja-kitchen-berkeley",
+            "is_closed": false,
+            "distance": 666.2572336932943
+        },
+        {
+            "is_claimed": true,
+            "rating": 3.5,
+            "mobile_url": "http://m.yelp.com/biz/artichoke-basilles-pizza-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+            "review_count": 305,
+            "name": "Artichoke Basille's Pizza",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/9g0i8pxFr5miNfXJtgDkpQ/ms.jpg",
+            "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+            "url": "http://www.yelp.com/biz/artichoke-basilles-pizza-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bowditch St & Telegraph Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2590 Durant Ave",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2590 Durant Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8679746,
+                    "longitude": -122.2568488
+                },
+                "state_code": "CA"
+            },
+            "menu_date_updated": 1442172370,
+            "phone": "5107051266",
+            "snippet_text": "Open your mind and go for it. \nYou won't find nice seats or a beautiful place, however, you'll find the best pizza and this is enough! \nI had this pizza in...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/XyJ3E8bz9U0Jrmfdu7RSlQ/ms.jpg",
+            "categories": [
+                [
+                    "Pizza",
+                    "pizza"
+                ]
+            ],
+            "display_phone": "+1-510-705-1266",
+            "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+            "menu_provider": "single_platform",
+            "id": "artichoke-basilles-pizza-berkeley",
+            "is_closed": false,
+            "distance": 487.20049529153397
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/tacos-sinaloa-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 108,
+            "name": "Tacos Sinaloa",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/JHl_WcmfZSr1j8cOoBGmmw/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/tacos-sinaloa-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Channing Way & Durant Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2384 Telegraph Ave",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2384 Telegraph Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8671979534161,
+                    "longitude": -122.25897911936
+                },
+                "state_code": "CA"
+            },
+            "snippet_text": "You can pretty much find me here every Tuesday for Taco Tuesdays! (They now have a Taco Tuesday deal; buy 4 tacos get one free or one free Aqua Fresca, in...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/zugbfHW6hCTkCPL0LPFiPQ/ms.jpg",
+            "categories": [
+                [
+                    "Mexican",
+                    "mexican"
+                ]
+            ],
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "tacos-sinaloa-berkeley",
+            "is_closed": false,
+            "distance": 670.6584789349212
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/the-stuffed-inn-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 194,
+            "name": "The Stuffed Inn",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/Y1LTes4zUkGtPWhVYGIyeg/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/the-stuffed-inn-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Hearst Ave & Ridge Rd",
+                "city": "Berkeley",
+                "display_address": [
+                    "1829 Euclid Ave",
+                    "Berkeley, CA 94709"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "94709",
+                "country_code": "US",
+                "address": [
+                    "1829 Euclid Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8756866455078,
+                    "longitude": -122.260040283203
+                },
+                "state_code": "CA"
+            },
+            "menu_date_updated": 1461074724,
+            "phone": "5108490378",
+            "snippet_text": "I've been in Berkeley for over 4 years of my life, but it wasn't until my last two semesters here that I found this wonderful gem!\n\nOn one sunny day when I...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/bIJn87f-k8M4GEPJ-nELTA/ms.jpg",
+            "categories": [
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ],
+                [
+                    "Salad",
+                    "salad"
+                ]
+            ],
+            "display_phone": "+1-510-849-0378",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "the-stuffed-inn-berkeley",
+            "is_closed": false,
+            "distance": 708.034542902279
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/tap-haus-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 25,
+            "name": "Tap Haus",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/wDZ7Kjvi8EG6u2ln3VANsA/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/tap-haus-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bowditch St & Telegraph Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2516 Durant Ave",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2516 Durant Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8678736756068,
+                    "longitude": -122.258263640106
+                },
+                "state_code": "CA"
+            },
+            "phone": "5102805000",
+            "snippet_text": "I haven't really been around campus since I graduated several years ago, so pardon the ignorance.. But I'm pleasantly surprised that this location, which...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/LRTXQp6puc9qeDBDbyhAkQ/ms.jpg",
+            "categories": [
+                [
+                    "Bars",
+                    "bars"
+                ],
+                [
+                    "German",
+                    "german"
+                ]
+            ],
+            "display_phone": "+1-510-280-5000",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "tap-haus-berkeley",
+            "is_closed": false,
+            "distance": 572.8477085211508
+        },
+        {
+            "is_claimed": true,
+            "rating": 3.5,
+            "mobile_url": "http://m.yelp.com/biz/chengdu-style-restaurant-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+            "review_count": 139,
+            "name": "Chengdu Style Restaurant",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/DN18Ud-Us2J3UcvCXxlqnw/ms.jpg",
+            "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+            "url": "http://www.yelp.com/biz/chengdu-style-restaurant-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "cross_streets": "Bowditch St & College Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2600 Bancroft Way",
+                    "Telegraph Ave",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Telegraph Ave"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2600 Bancroft Way"
+                ],
+                "coordinate": {
+                    "latitude": 37.868766784668,
+                    "longitude": -122.256561279297
+                },
+                "state_code": "CA"
+            },
+            "phone": "5108455807",
+            "snippet_text": "I definitely feel like this place has some of the more interesting Chinese food in Berkeley. I am also a sucker for Szechuan food because I love spicy...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5S0ReXYlqEMplmSCi64s2g/ms.jpg",
+            "categories": [
+                [
+                    "Szechuan",
+                    "szechuan"
+                ],
+                [
+                    "Asian Fusion",
+                    "asianfusion"
+                ]
+            ],
+            "display_phone": "+1-510-845-5807",
+            "gift_certificates": [
+                {
+                    "url": "http://www.yelp.com/gift-certificates/chengdu-style-restaurant-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+                    "unused_balances": "CREDIT",
+                    "options": [
+                        {
+                            "price": 1000,
+                            "formatted_price": "$10"
+                        },
+                        {
+                            "price": 2500,
+                            "formatted_price": "$25"
+                        },
+                        {
+                            "price": 5000,
+                            "formatted_price": "$50"
+                        }
+                    ],
+                    "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/jDziXVWBon_LzQzbt32RxA/m.jpg",
+                    "id": "Yi37XJNuGycJJvJ4U5r0ew",
+                    "currency_code": "USD"
+                }
+            ],
+            "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+            "id": "chengdu-style-restaurant-berkeley",
+            "is_closed": false,
+            "distance": 400.4285359223001
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/the-coffee-lab-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 26,
+            "name": "The Coffee Lab",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/XTHlLWqFXEs3busPNBodKA/ms.jpg",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/the-coffee-lab-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "location": {
+                "city": "Berkeley",
+                "display_address": [
+                    "Hildebrand Hall",
+                    "UC Area",
+                    "Berkeley, CA 94720"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "UC Area"
+                ],
+                "postal_code": "94720",
+                "country_code": "US",
+                "address": [
+                    "Hildebrand Hall"
+                ],
+                "coordinate": {
+                    "latitude": 37.8727784971583,
+                    "longitude": -122.255591154098
+                },
+                "state_code": "CA"
+            },
+            "snippet_text": "This is the coffee place with the warmest staff ever ! They wake you up almost as much as their coffee. Very affordable !",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/0CoC8lhMgIZf75-XuaM0LQ/ms.jpg",
+            "categories": [
+                [
+                    "Coffee & Tea",
+                    "coffee"
+                ],
+                [
+                    "Cafes",
+                    "cafes"
+                ]
+            ],
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "the-coffee-lab-berkeley-2",
+            "is_closed": false,
+            "distance": 200.25927616334928
+        }
+    ]
+}

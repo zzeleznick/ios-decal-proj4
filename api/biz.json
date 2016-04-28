@@ -1,0 +1,1079 @@
+{
+    "region": {
+        "span": {
+            "latitude_delta": 0.012561230000002865,
+            "longitude_delta": 0.011711857343982501
+        },
+        "center": {
+            "latitude": 37.87395435,
+            "longitude": -122.27207002848
+        }
+    },
+    "total": 9645,
+    "businesses": [
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/philz-coffee-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 1154,
+            "name": "Philz Coffee",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/philz-coffee-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Coffee & Tea",
+                    "coffee"
+                ]
+            ],
+            "phone": "5107051083",
+            "snippet_text": "One of my favorite places to grab iced coffees in SF. I do enjoy high end classy coffee shops and I still love Starbucks... So all coffee shops are good to...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/o-jnSHwNbCqXb1Z04HwfiA/ms.jpg",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/uF5YZ0gFMl-kRvgUYyekxg/ms.jpg",
+            "display_phone": "+1-510-705-1083",
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "philz-coffee-berkeley-2",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Lincoln St & Cedar St",
+                "city": "Berkeley",
+                "display_address": [
+                    "1600 Shattuck Ave",
+                    "North Berkeley",
+                    "Berkeley, CA 94709"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "North Berkeley",
+                    "Gourmet Ghetto"
+                ],
+                "postal_code": "94709",
+                "country_code": "US",
+                "address": [
+                    "1600 Shattuck Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.878046,
+                    "longitude": -122.269322
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/brazil-fresh-squeeze-cafe-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 1028,
+            "name": "Brazil Fresh Squeeze Cafe",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/brazil-fresh-squeeze-cafe-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Brazilian",
+                    "brazilian"
+                ]
+            ],
+            "menu_date_updated": 1461104780,
+            "phone": "5108458011",
+            "snippet_text": "The Acai here is great, but that's just the beginning! Any and all of the smoothies I have tried here are awesome and made on the spot. The Acai is just the...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/SQjCeRDxzFctDcAuXkdjVA/ms.jpg",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/D09wwheJlggOWEWOeNIPDQ/ms.jpg",
+            "display_phone": "+1-510-845-8011",
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "menu_provider": "single_platform",
+            "id": "brazil-fresh-squeeze-cafe-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Oxford St & West Entrance",
+                "city": "Berkeley",
+                "display_address": [
+                    "2161 University Ave",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2161 University Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.872552852207,
+                    "longitude": -122.26674645696
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/sliver-pizzeria-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 841,
+            "name": "Sliver Pizzeria",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/sliver-pizzeria-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Pizza",
+                    "pizza"
+                ],
+                [
+                    "Jazz & Blues",
+                    "jazzandblues"
+                ],
+                [
+                    "Bars",
+                    "bars"
+                ]
+            ],
+            "menu_date_updated": 1442113067,
+            "phone": "5103564044",
+            "snippet_text": "I find it fascinating I've never reviewed Sliver considering how many times I've been here.  Originally it was a suggestion from a friend who in all honesty...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/OMvrrqMcPcOkmlySj1EIqg/ms.jpg",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/3yWX5i0VDtDc0k_wqFfbyg/ms.jpg",
+            "display_phone": "+1-510-356-4044",
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "menu_provider": "single_platform",
+            "id": "sliver-pizzeria-berkeley-2",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Oxford St & West Entrance",
+                "city": "Berkeley",
+                "display_address": [
+                    "2132 Center St",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2132 Center St"
+                ],
+                "coordinate": {
+                    "latitude": 37.8703232034316,
+                    "longitude": -122.266894917144
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/asha-tea-house-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 874,
+            "name": "Asha Tea House",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/asha-tea-house-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Tea Rooms",
+                    "tea"
+                ],
+                [
+                    "Coffee & Tea",
+                    "coffee"
+                ],
+                [
+                    "Bubble Tea",
+                    "bubbletea"
+                ]
+            ],
+            "menu_date_updated": 1450085746,
+            "phone": "5105499137",
+            "snippet_text": "Parking is a pain in the butt unless you plan to do tons of things downtown or you're on UC Berkeley campus and decided to run across the street to grab...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/r3IPrFxzB7Sc4XNi43It7A/ms.jpg",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/KDghRpXaM1t_9J5IPDVuqQ/ms.jpg",
+            "display_phone": "+1-510-549-9137",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "asha-tea-house-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Milvia St & Shattuck Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2086 University Ave",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2086 University Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8719582,
+                    "longitude": -122.268859
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/pedros-brazil-cafe-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 385,
+            "name": "Pedro's Brazil Cafe",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/pedros-brazil-cafe-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Brazilian",
+                    "brazilian"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "menu_date_updated": 1455344401,
+            "phone": "5108451056",
+            "snippet_text": "Will forever be a Berkeley classiq. \n\nPedro's Tri-tip plate, with pork combo: Seraphic. I found a higher power in the tri-tip. Gambled correctly with the...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yQ0vDt5mB9uhfSMQY7HK0Q/ms.jpg",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/biN0vcPUjWpID7AzgLYNug/ms.jpg",
+            "display_phone": "+1-510-845-1056",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "eat24",
+            "id": "pedros-brazil-cafe-berkeley-2",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Milvia St & Bonita Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "1960 University Ave",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "1960 University Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8714,
+                    "longitude": -122.27139
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/victory-point-cafe-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 64,
+            "name": "Victory Point Cafe",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/victory-point-cafe-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Coffee & Tea",
+                    "coffee"
+                ],
+                [
+                    "Cafes",
+                    "cafes"
+                ],
+                [
+                    "Beer Bar",
+                    "beerbar"
+                ]
+            ],
+            "phone": "5109826325",
+            "snippet_text": "A board gamer's dream come true. You have to come to experience what a gaming-first cafe that happens to also serve food and drink is like. \n\nIt's also a...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/yrarWHYMrNdiDkZ-YNQ6eA/ms.jpg",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/zD55d4HL-Xq2xwMLpcDg7w/ms.jpg",
+            "display_phone": "+1-510-982-6325",
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "victory-point-cafe-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Delaware St & Francisco St",
+                "city": "Berkeley",
+                "display_address": [
+                    "1797 Shattuck Ave",
+                    "Ste A",
+                    "North Berkeley",
+                    "Berkeley, CA 94709"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "North Berkeley",
+                    "Gourmet Ghetto"
+                ],
+                "postal_code": "94709",
+                "country_code": "US",
+                "address": [
+                    "1797 Shattuck Ave",
+                    "Ste A"
+                ],
+                "coordinate": {
+                    "latitude": 37.8752135832342,
+                    "longitude": -122.268558293581
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/the-butchers-son-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 68,
+            "name": "The Butcher's Son",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/the-butchers-son-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Delis",
+                    "delis"
+                ],
+                [
+                    "Vegan",
+                    "vegan"
+                ],
+                [
+                    "Bakeries",
+                    "bakeries"
+                ]
+            ],
+            "phone": "5109840818",
+            "snippet_text": "Wow! This is your father's delicatessen, veganized. You want a canoli? You want a pound of thin-sliced peppersteak seitan? You want housemade vegan buffalo...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/3jhUPNHm5FfRUkWJMgKNWA/ms.jpg",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/hqItiHbnW2lsp5CRhHI5hw/ms.jpg",
+            "display_phone": "+1-510-984-0818",
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "the-butchers-son-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Martin Luther King Jr Way & Bonita Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "1941 University Ave",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "1941 University Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8718315416151,
+                    "longitude": -122.272098809481
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/chez-panisse-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 1523,
+            "name": "Chez Panisse",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/chez-panisse-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "American (New)",
+                    "newamerican"
+                ],
+                [
+                    "French",
+                    "french"
+                ]
+            ],
+            "menu_date_updated": 1441959778,
+            "phone": "5105485525",
+            "snippet_text": "Had an amazing lunch, on a monday, with the hubby last month.\n\nThe restaurant is adorable, very clean. The service nothing short of spectacular!  Everyone...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/1leNTWRNUTctc6fm_jxBFQ/ms.jpg",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/4Ouin3eeKkTK_7capXviUQ/ms.jpg",
+            "display_phone": "+1-510-548-5525",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "chez-panisse-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Cedar St & Vine St",
+                "city": "Berkeley",
+                "display_address": [
+                    "1517 Shattuck Ave",
+                    "North Berkeley",
+                    "Berkeley, CA 94709"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "North Berkeley",
+                    "Gourmet Ghetto"
+                ],
+                "postal_code": "94709",
+                "country_code": "US",
+                "address": [
+                    "1517 Shattuck Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.879664,
+                    "longitude": -122.26894
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/angelines-louisiana-kitchen-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 3110,
+            "name": "Angeline's Louisiana Kitchen",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/angelines-louisiana-kitchen-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Cajun/Creole",
+                    "cajun"
+                ],
+                [
+                    "Southern",
+                    "southern"
+                ],
+                [
+                    "Seafood",
+                    "seafood"
+                ]
+            ],
+            "menu_date_updated": 1441967121,
+            "phone": "5105486900",
+            "snippet_text": "After coming here about 5 times. I'm ready to give it 5 stars.\n\n-Excellent service, food comes fast\n-Great fresh food\n-Reasonable price for what you're...",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/7JmU5f54Ga5mGEdmLwKt2A/ms.jpg",
+            "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/L3AptVXpq8NjP7pQ154Yaw/ms.jpg",
+            "display_phone": "+1-510-548-6900",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "angelines-louisiana-kitchen-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Allston Way & Kittredge St",
+                "city": "Berkeley",
+                "display_address": [
+                    "2261 Shattuck Ave",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2261 Shattuck Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8681812435389,
+                    "longitude": -122.267604768276
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/gregoire-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 1874,
+            "name": "Grégoire",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/gregoire-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "French",
+                    "french"
+                ],
+                [
+                    "Breakfast & Brunch",
+                    "breakfast_brunch"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "menu_date_updated": 1450086512,
+            "phone": "5108831893",
+            "snippet_text": "I love gregoires! It's tasty, quick food, and definitely lives up to the hype. I came here for an early lunch, and got the egg sandwich (w arugula and...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/EnuxkL6lW6c0nmyXdgPheA/ms.jpg",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/GMMVcv3R3hcf8ozP_mCWLQ/ms.jpg",
+            "display_phone": "+1-510-883-1893",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "gregoire-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Shattuck Ave & Walnut St",
+                "city": "Berkeley",
+                "display_address": [
+                    "2109 Cedar St",
+                    "North Berkeley",
+                    "Berkeley, CA 94709"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "North Berkeley",
+                    "Gourmet Ghetto"
+                ],
+                "postal_code": "94709",
+                "country_code": "US",
+                "address": [
+                    "2109 Cedar St"
+                ],
+                "coordinate": {
+                    "latitude": 37.878695,
+                    "longitude": -122.268545
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/tamon-tea-berkeley-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 80,
+            "name": "Tamon Tea",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/tamon-tea-berkeley-3?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Japanese",
+                    "japanese"
+                ]
+            ],
+            "phone": "5106479370",
+            "snippet_text": "If I could add one new product into convenience stores in the United States it would be omusubi. In Japan you can find them on every block, in 7/11's,...",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/0EvrP82Y7hE-IJ8nwbC_UA/ms.jpg",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/y5pShTtX8XWgE_p1TMQTnQ/ms.jpg",
+            "display_phone": "+1-510-647-9370",
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "tamon-tea-berkeley-3",
+            "is_closed": false,
+            "location": {
+                "city": "Berkeley",
+                "display_address": [
+                    "2055 A Center St",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2055 A Center St"
+                ],
+                "coordinate": {
+                    "latitude": 37.870417,
+                    "longitude": -122.269287
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": false,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/ippuku-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 923,
+            "name": "Ippuku",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/ippuku-berkeley-2?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Japanese",
+                    "japanese"
+                ],
+                [
+                    "Bars",
+                    "bars"
+                ]
+            ],
+            "phone": "5106651969",
+            "snippet_text": "I've been coming here for years now and the quality of food is fresh and top notch, preparation is consistence (I've never once had an order of karaage over...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/e5Y_30hTFIOBv0Md952qFA/ms.jpg",
+            "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/GZ9HmyAn1HaWEM7xGFuLIw/ms.jpg",
+            "display_phone": "+1-510-665-1969",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "ippuku-berkeley-2",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Oxford St & West Entrance",
+                "city": "Berkeley",
+                "display_address": [
+                    "2130 Center St",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2130 Center St"
+                ],
+                "coordinate": {
+                    "latitude": 37.870148,
+                    "longitude": -122.267036
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.5,
+            "mobile_url": "http://m.yelp.com/biz/melomelo-kava-bar-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+            "review_count": 72,
+            "name": "MeloMelo Kava Bar",
+            "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+            "url": "http://www.yelp.com/biz/melomelo-kava-bar-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Tea Rooms",
+                    "tea"
+                ],
+                [
+                    "Lounges",
+                    "lounges"
+                ]
+            ],
+            "phone": "5109009316",
+            "snippet_text": "I went with a group. Parking isnt too bad. Love this place! So relaxing! Delicious ! Bartenders are so friendly and helpful. I love looking at the...",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/nlMpxAEa8y6BarxcsNScNQ/ms.jpg",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/WrcqECxDjlUgbiG6XDtMKQ/ms.jpg",
+            "display_phone": "+1-510-900-9316",
+            "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+            "id": "melomelo-kava-bar-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Mcgee Ave & Grant St",
+                "city": "Berkeley",
+                "display_address": [
+                    "1701 University Ave",
+                    "Berkeley, CA 94703"
+                ],
+                "geo_accuracy": 8.0,
+                "postal_code": "94703",
+                "country_code": "US",
+                "address": [
+                    "1701 University Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8712692,
+                    "longitude": -122.2772598
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/the-sandwich-spot-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 197,
+            "name": "The Sandwich Spot",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/the-sandwich-spot-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ],
+                [
+                    "Salad",
+                    "salad"
+                ]
+            ],
+            "menu_date_updated": 1460743200,
+            "phone": "5106473400",
+            "snippet_text": "So good!!! \nThis was my first time at the sandwich spot and everyone there was super helpful! I was a little overwhelmed with all the sandwich options and...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8s1eGx2OTp4p2AH_CQxqsw/ms.jpg",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/FLHFzS62z-7wEPIDSVDPmw/ms.jpg",
+            "display_phone": "+1-510-647-3400",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "the-sandwich-spot-berkeley",
+            "is_closed": false,
+            "location": {
+                "city": "Berkeley",
+                "display_address": [
+                    "2106 Shattuck Ave",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2106 Shattuck Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8709071842226,
+                    "longitude": -122.268416696293
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/simply-bowl-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 301,
+            "name": "Simply Bowl",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/simply-bowl-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Japanese",
+                    "japanese"
+                ],
+                [
+                    "Asian Fusion",
+                    "asianfusion"
+                ]
+            ],
+            "menu_date_updated": 1458633822,
+            "phone": "5106479494",
+            "snippet_text": "First time trying Poke and I must say, I will come back! I had the Ying yang poke over brown rice, loved it! It was a mixture of tuna, salmon, seaweed...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/MtRxpSWkziNJFfmW9tQwFg/ms.jpg",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/IFaRfrlwhQo4gILB0wmA-g/ms.jpg",
+            "display_phone": "+1-510-647-9494",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "eat24",
+            "id": "simply-bowl-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Oxford St & West Entrance",
+                "city": "Berkeley",
+                "display_address": [
+                    "2156 University Ave",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2156 University Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8720016,
+                    "longitude": -122.2670135
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/le-petit-cochon-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 118,
+            "name": "Le Petit Cochon",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/le-petit-cochon-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Salad",
+                    "salad"
+                ],
+                [
+                    "Pizza",
+                    "pizza"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "menu_date_updated": 1461608519,
+            "phone": "5106479959",
+            "snippet_text": "This little cafe is seriously the cutest! Everyone that works here is super nice and friendly, the food tastes great, and although the atmosphere definitely...",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/b66DGBkvr8C27KeQ6B22eg/ms.jpg",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/5-uKvb9cmvWhcqnrs_3jcg/ms.jpg",
+            "display_phone": "+1-510-647-9959",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "le-petit-cochon-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Hearst Ave & Delaware St",
+                "city": "Berkeley",
+                "display_address": [
+                    "1801 Shattuck Ave",
+                    "North Berkeley",
+                    "Berkeley, CA 94709"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "North Berkeley",
+                    "Gourmet Ghetto"
+                ],
+                "postal_code": "94709",
+                "country_code": "US",
+                "address": [
+                    "1801 Shattuck Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8745322,
+                    "longitude": -122.2684983
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/hot-cups-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 73,
+            "name": "Hot Cups",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/hot-cups-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Coffee & Tea",
+                    "coffee"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "phone": "5105404150",
+            "snippet_text": "Quaint cafe on a relatively quiet road in Berkeley. Not the biggest of menus, but it's a cafe and I didn't expect there to be.\n\nOwner is very nice and...",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Sbq97ov8vd2yIotUbJ351w/ms.jpg",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/HOKTHV0a-fspAAzpLru2KQ/ms.jpg",
+            "display_phone": "+1-510-540-4150",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "hot-cups-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Shattuck Ave & Terminal Pl",
+                "city": "Berkeley",
+                "display_address": [
+                    "2107 Addison St",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2107 Addison St"
+                ],
+                "coordinate": {
+                    "latitude": 37.8713113814592,
+                    "longitude": -122.267419695854
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/jupiter-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 2458,
+            "name": "Jupiter",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/jupiter-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Pubs",
+                    "pubs"
+                ],
+                [
+                    "Pizza",
+                    "pizza"
+                ],
+                [
+                    "Breweries",
+                    "breweries"
+                ]
+            ],
+            "menu_date_updated": 1446036477,
+            "phone": "5108438277",
+            "snippet_text": "Jupiter... A place themed by its starry-skied constellation pies, brews and eats. A definite hotspot for young Berkeley kids looking to unwind and friends...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/B8rRuDSzKbPnW3jBOwXdZg/ms.jpg",
+            "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/GfUqaaDF8bnsbahV-gg-Sw/ms.jpg",
+            "display_phone": "+1-510-843-8277",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "jupiter-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Allston Way",
+                "city": "Berkeley",
+                "display_address": [
+                    "2181 Shattuck Ave",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 8.0,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2181 Shattuck Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.86983,
+                    "longitude": -122.26749
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/the-local-butcher-shop-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 145,
+            "name": "The Local Butcher Shop",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/the-local-butcher-shop-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Butcher",
+                    "butcher"
+                ],
+                [
+                    "Sandwiches",
+                    "sandwiches"
+                ]
+            ],
+            "menu_date_updated": 1450086417,
+            "phone": "5108456328",
+            "snippet_text": "I love this place. It's a little pricey but the quality really supports it. I've seen way more expensive meat in Sebastopol nearer where the same meat is...",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/LSasI5Z82scnzImUjc9Z-w/ms.jpg",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/0PzA4XEl-W6ovfTPzy0O8A/ms.jpg",
+            "display_phone": "+1-510-845-6328",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "menu_provider": "single_platform",
+            "id": "the-local-butcher-shop-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Cedar St & Lincoln St",
+                "city": "Berkeley",
+                "display_address": [
+                    "1600 Shattuck Ave",
+                    "Ste 120",
+                    "North Berkeley",
+                    "Berkeley, CA 94709"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "North Berkeley",
+                    "Gourmet Ghetto"
+                ],
+                "postal_code": "94709",
+                "country_code": "US",
+                "address": [
+                    "1600 Shattuck Ave",
+                    "Ste 120"
+                ],
+                "coordinate": {
+                    "latitude": 37.87822391693,
+                    "longitude": -122.2696352005
+                },
+                "state_code": "CA"
+            }
+        },
+        {
+            "is_claimed": true,
+            "rating": 4.0,
+            "mobile_url": "http://m.yelp.com/biz/imm-thai-street-food-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "review_count": 368,
+            "name": "Imm Thai Street Food",
+            "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "url": "http://www.yelp.com/biz/imm-thai-street-food-berkeley?utm_campaign=yelp_api&utm_medium=api_v2_search&utm_source=6NoW5lmM4h495Kk2MZukZw",
+            "categories": [
+                [
+                    "Thai",
+                    "thai"
+                ]
+            ],
+            "phone": "5108981123",
+            "snippet_text": "Chicken wings (in the \"snack\" section): 3 stars. Pretty ordinary. Not bad, but not amazing.\nThe ping in the \"snack section\": 4 stars. More complex flavors...",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mmH1TNqmNs6OPIzBHkqJ5w/ms.jpg",
+            "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/NzHsMIsf_FIWqyibQB7ENw/ms.jpg",
+            "display_phone": "+1-510-898-1123",
+            "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "imm-thai-street-food-berkeley",
+            "is_closed": false,
+            "location": {
+                "cross_streets": "Milvia St & Shattuck Ave",
+                "city": "Berkeley",
+                "display_address": [
+                    "2068 University Ave",
+                    "Downtown Berkeley",
+                    "Berkeley, CA 94704"
+                ],
+                "geo_accuracy": 9.5,
+                "neighborhoods": [
+                    "Downtown Berkeley"
+                ],
+                "postal_code": "94704",
+                "country_code": "US",
+                "address": [
+                    "2068 University Ave"
+                ],
+                "coordinate": {
+                    "latitude": 37.8719275880523,
+                    "longitude": -122.269052362604
+                },
+                "state_code": "CA"
+            }
+        }
+    ]
+}

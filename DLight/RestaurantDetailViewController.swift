@@ -18,6 +18,8 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
     var width: CGFloat!
     var height: CGFloat!
     
+    let viewMenuButton = UIButton()
+    
     var restaurant: Restaurant!
     var keys: [String]!
     
@@ -39,10 +41,17 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
         scroller.delegate = self
         view.addSubview(scroller)
         
-        let image = UIImage(named: "CaffeOrganica")
+        let image = restaurant.image //UIImage(named: "CaffeOrganica")
         let imageFrame = UIImageView(image: image)
         imageFrame.frame = CGRect(x: 0, y: 0, width: width, height: imageHeight)
         scroller.addSubview(imageFrame)
+        
+        viewMenuButton.frame = CGRect(x: width/2-50, y: imageHeight-40, width: 100, height: 40)
+        viewMenuButton.setTitle("View Menu", forState: .Normal)
+        viewMenuButton.setTitleColor(UIColor(white: 0.95, alpha: 1.0), forState: .Normal)
+        viewMenuButton.backgroundColor = UIColor(white: 0, alpha: 0.7)
+        viewMenuButton.addTarget(self, action: "applyTransition", forControlEvents: UIControlEvents.TouchUpInside)
+        scroller.addSubview(viewMenuButton)
         
         myTable = UITableView(frame: CGRect(x: 0, y: imageHeight, width: width, height: tableHeight))
         myTable.rowHeight = cellHeight
@@ -53,6 +62,11 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
         myTable.allowsSelection = false
         scroller.addSubview(myTable)
         // End Programatic Methods
+    }
+    func applyTransition() {
+        let dest = MDishViewController()
+        dest.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
+        navigationController?.pushViewController(dest, animated: true)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

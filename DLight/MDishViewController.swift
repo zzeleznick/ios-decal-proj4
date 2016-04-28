@@ -25,22 +25,17 @@ class MDishViewController: UIViewController, UITableViewDelegate, UITableViewDat
     let imageHeight: CGFloat = 250
     var width: CGFloat!
     var height: CGFloat!
+    let nextButton = UIButton()
+    let prevButton = UIButton()
     
-    private let keys = ["entree", "dietary intake restrictions",
-        "dietary restrictions", "user rating", "nutrition facts"]
-    
-    private let dummyData: [String: Any] = ["entree": "grilled atlantic salmon", "dietary intake restrictions": "low calorie", "dietary restrictions": "pescaterian",
-        "user rating": "a- 362 reviews", "nutrition facts": "320 calories"]
-    
-    let dish = Dish(name: "Grilled Atlantic Salmon",
-        nutrition:  NutritionWrapper(calories: 360, carbs: 10, protein: 34, sugar:8, fat:5),
-        ingredients: IngredientWrapper(ingredients: ["Atlantic Salmon", "3 blend seasoning", "salt"], intakeRestrictions: ["Low Sodium", "Low Calorie"], dietaryRestrictions: ["Pescatarian"]),
-        merchant: MerchantWrapper(price: "$14", photo: nil) )
-    
+    var index = 0
+    var dish: Dish!
+    var dishes: [Dish] = generateSampleMenu().dishes
     var dishKeys: [String]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        dish = dishes[index]
         dishKeys = [String](dish.dict.keys)
         let nutritionKeys = [String](dish.nutrition.dict.keys)
         for key in nutritionKeys {
@@ -51,7 +46,7 @@ class MDishViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // Programatic Methods
         view = UIView(frame: UIScreen.mainScreen().bounds)
         view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
-        navigationItem.title = "Dish"
+        navigationItem.title = dish.name // "Dish"
         width = UIScreen.mainScreen().bounds.size.width
         height = UIScreen.mainScreen().bounds.size.height
         
@@ -62,10 +57,24 @@ class MDishViewController: UIViewController, UITableViewDelegate, UITableViewDat
         scroller.delegate = self
         view.addSubview(scroller)
         
-        let image = UIImage(named: "salmon_wide")
+        let image = dish.merchant.photo! //UIImage(named: "salmon_wide")
         let imageFrame = UIImageView(image: image)
         imageFrame.frame = CGRect(x: 0, y: 0, width: width, height: imageHeight)
         scroller.addSubview(imageFrame)
+        
+        nextButton.frame = CGRect(x: 3*width/4, y: imageHeight-40, width: width/4, height: 40)
+        prevButton.frame = CGRect(x: 0, y: imageHeight-40, width: width/4, height: 40)
+        nextButton.setTitle("Next", forState: .Normal)
+        prevButton.setTitle("Previous", forState: .Normal)
+        nextButton.addTarget(self, action: "nextDish", forControlEvents: UIControlEvents.TouchUpInside)
+        prevButton.addTarget(self, action: "prevDish", forControlEvents: UIControlEvents.TouchUpInside)
+        nextButton.setTitleColor(UIColor(white: 0.95, alpha: 1.0), forState: .Normal)
+        nextButton.backgroundColor = UIColor(white: 0, alpha: 0.7)
+        prevButton.setTitleColor(UIColor(white: 0.95, alpha: 1.0), forState: .Normal)
+        prevButton.backgroundColor = UIColor(white: 0, alpha: 0.7)
+        // viewMenuButton.addTarget(self, action: "applyTransition", forControlEvents: UIControlEvents.TouchUpInside)
+        scroller.addSubview(nextButton)
+        scroller.addSubview(prevButton)
         
         myTable = UITableView(frame: CGRect(x: 0, y: imageHeight, width: width, height: tableHeight))
         myTable.rowHeight = cellHeight
@@ -79,6 +88,20 @@ class MDishViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // End Programatic Methods
     }
     
+    func nextDish() {
+        let dest = MDishViewController()
+        let next = index+1
+        guard next < 3 else {return}
+        dest.index = next
+        dest.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
+        navigationController?.pushViewController(dest, animated: true)
+    }
+    
+    func prevDish() {
+        let next = index - 1
+        guard next >= 0  else {return}
+        navigationController?.popViewControllerAnimated(true)
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -87,6 +110,7 @@ class MDishViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     // Returning to view
     override func viewWillAppear(animated: Bool) {
+        
         myTable.reloadData()
     }
     

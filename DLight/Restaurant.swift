@@ -11,8 +11,9 @@ import MapKit
 import UIKit
 
 class BusinessInfo: CustomStringConvertible {
-    let location = CLLocation(latitude: CLLocationDegrees(127.0),
-    longitude: CLLocationDegrees(127.0))
+    let uniqueID = String.random(32)
+    var location = CLLocation(latitude: CLLocationDegrees(127.0),
+        longitude: CLLocationDegrees(127.0))
     var name: String
     var address: String
     var city: String
@@ -23,18 +24,26 @@ class BusinessInfo: CustomStringConvertible {
     
     init(name: String, address: String, city: String, state: String,
         zipCode: String, zipExtension: String?) {
-        self.name = name
-        self.address = address
-        self.city = city
-        self.state = state
-        self.zipCode = zipCode
-        self.zipExtension = zipExtension
-        self.zipCodeString = "\(self.zipCode)"
-        if let ext = zipExtension {
-            zipCodeString = "\(self.zipCode)-\(ext)"
-        }
+            self.name = name
+            self.address = address
+            self.city = city
+            self.state = state
+            self.zipCode = zipCode
+            self.zipExtension = zipExtension
+            self.zipCodeString = "\(self.zipCode)"
+            if let ext = zipExtension {
+                zipCodeString = "\(self.zipCode)-\(ext)"
+            }
     }
-    
+    lazy var dict: [String:String] = {
+        [unowned self] in
+        let out = ["Name": self.name,
+            "Address": "\(self.address)",
+            "City": "\(self.city)",
+            "State": "\(self.state)",
+            "Zipcode": "\(self.zipCode)",
+        ]
+        return out }()
     var description: String {
         let tmp = ["Address: \(self.address)",
             "City:  \(self.city)",
@@ -44,7 +53,7 @@ class BusinessInfo: CustomStringConvertible {
         let out = "BusinessLocation{\(tmp)}"
         return out
     }
-
+    
 }
 
 class Schedule {
@@ -55,15 +64,6 @@ class Schedule {
 }
 
 class Restaurant: CustomStringConvertible {
-    let randID = String.random(32)
-    /*
-    Name
-    Hours or Schedule
-    Locaton
-    Menu
-    Phone Number
-    Website
-    */
     var name: String
     var schedule: Schedule
     var menu: Menu

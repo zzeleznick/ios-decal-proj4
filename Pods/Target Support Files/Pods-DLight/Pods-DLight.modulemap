@@ -1,0 +1,6 @@
+framework module Pods_DLight {
+  umbrella header "Pods-DLight-umbrella.h"
+
+  export *
+  module * { export * }
+}

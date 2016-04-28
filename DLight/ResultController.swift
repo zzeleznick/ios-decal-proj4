@@ -10,43 +10,44 @@ import UIKit
 import MapKit
 import CoreData
 
-class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate, MKMapViewDelegate {
+class ResultController: UIViewController {
     
     @IBOutlet weak var myTable: UITableView!
     
     @IBOutlet weak var myMap: MKMapView!
     
-    private let names = ["Restaurant 1", "Restaurant 2", "Restaurant 3",
-                        "Cafe 1", "Cafe 2", "Cafe 3"]
-    private let locations = ["2258 Haste St", "2190 Haste St", "2054 Durant Ave",
-                        "2050 Durant Ave", "1950 Durant Ave", "1600 Telegraph Ave"]
+    var API: FirebaseAPI!
+    var helper: LocationHelper!
     
     let restaurants = generateSampleRestaurants()
-    
     var geoCoder = CLGeocoder()
-    var locationManager: CLLocationManager!
-    
     var dragPin: MKPointAnnotation!
     
     var searchRadius = 500
-    
     var searchCircle: MKCircle!
     
-    var location: CLLocation! {
-        didSet { // update when set
-            print("Found Your Location \(location.coordinate)")
-        }
-    }
+    var location: CLLocation = CLLocation(latitude: 37.8716452,
+        longitude: -122.253818)
+    
+    var locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         myTable.separatorStyle = .None
-        self.myMap.delegate = self
-        let gestureRecognizer = UILongPressGestureRecognizer(target: self, action: "addPin:")
+        API = FirebaseAPI()
+        helper = LocationHelper()
+        // print("Biz \(helper.places)")
+        // initializePlaces()
+    }
     
-        gestureRecognizer.numberOfTouchesRequired = 1
-        self.myMap.addGestureRecognizer(gestureRecognizer)
+    func initializePlaces() {
+        for place in helper.places {
+            API.setChildValue(place.uniqueID, value: place.dict)
+            API.geoSet(place.uniqueID, location: place.location) {
+                print("Added \(place.name)")
+            }
+        }
     }
     
     func addPin(gestureRecognizer: UIGestureRecognizer) {
@@ -74,109 +75,11 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
         }
     }
     
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        locationManager = CLLocationManager()
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        checkCoreLocationPermission() {
-            print("Success")
-        }
-    }
     
-    func triggerLocationUpdate() {
-        print("Location requested")
-        locationManager.startUpdatingLocation()
-    }
+}
 
-    // MARK: - CLLocationManagerDelegate
-    // Triggered by .startUpdating Location
-    // Will update the location and the zipcode on screen
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print("Location Manager invoked")
-        location = (locations).last!
-        
-        self.loadMapView() // Load the map with location
-        
-        locationManager.stopUpdatingLocation() // save the battery
-        geoCoder.reverseGeocodeLocation(location) {
-            (placements, myError) -> Void in
-            if let error = myError { // handle error
-                print(error)
-            }
-            else { // reverse geocode returns results
-                if let placement = placements?.first {
-                    print("\(placement.postalCode!)")
-                    // self.zipInput = "\(placement.postalCode!)"
-                    // self.textField.text = self.zipInput
-                }
-            }
-        }
-    }
-    
-    func locationManager(manager: CLLocationManager, didUpdateToLocation newLocation: CLLocation, fromLocation oldLocation: CLLocation) {
-        print("Did update to new location")
-    }
-    
-    func loadMapView() {
-        print("Loading map View")
-        let pos = location.coordinate
-        let regionRadius: CLLocationDistance = 500
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(
-            pos, regionRadius, regionRadius)
-        self.myMap.setRegion(coordinateRegion, animated: true)
-        self.myMap.showsUserLocation = true
-        self.myMap.userTrackingMode = .Follow
-        print("User tracking is \(self.myMap.userLocationVisible) and at \(self.myMap.userLocation.coordinate)")
-    }
-    
-    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-        if annotation is MKPointAnnotation {
-            let pinAnnotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "myPin")
-            pinAnnotationView.pinTintColor = UIColor(hue: 187, saturation: 76, brightness: 95, alpha: 100)
-            pinAnnotationView.animatesDrop = true
-            pinAnnotationView.draggable = true
-            pinAnnotationView.canShowCallout = true
-            return pinAnnotationView
-        }
-        return nil
-    }
-    
-    func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
-        let lat = view.annotation?.coordinate.latitude
-        let lon = view.annotation?.coordinate.longitude
-        print("Selected pin at(\(lat!), \(lon!))")
-    }
-    
-    
-    func checkCoreLocationPermission(onSuccess: () -> ()) {
-        // Note that plist must have the row "NSLocationWhenInUseUsageDescription"
-        // this allows us to access location
-        
-        if CLLocationManager.authorizationStatus() == .AuthorizedWhenInUse {
-            locationManager.startUpdatingLocation()
-            /* Calling this method causes the location manager to obtain an initial location fix (which may take several seconds) and notify your delegate by calling its locationManager:didUpdateLocations: method.
-            */
-            print("Authorized to use location")
-            onSuccess()
-        }
-        else if CLLocationManager.authorizationStatus() == .NotDetermined {
-            locationManager.requestWhenInUseAuthorization()
-        }
-        else if CLLocationManager.authorizationStatus() == .Restricted {
-            // should trigger alert
-            print("Unauthorized to use location")
-        }
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    // Returning to view
-    override func viewWillAppear(animated: Bool) {
-    }
+extension ResultController: UITableViewDelegate, UITableViewDataSource {
+    // MARK : Table Logic
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return restaurants.count
@@ -193,8 +96,6 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
         
         let name = restaurants[idx].name
         let loc = restaurants[idx].businessInfo.address
-        // let name = names[idx]
-        // let loc = locations[idx]
         if let image = restaurants[idx].image {
             cell.myImage.clipsToBounds = true
             cell.myImage.contentMode = UIViewContentMode.ScaleAspectFill
@@ -218,6 +119,130 @@ class ResultController: UIViewController, UITableViewDelegate, UITableViewDataSo
         dest.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
         navigationController?.pushViewController(dest, animated: true)
     }
+}
+
+extension ResultController: MKMapViewDelegate {
     
+    func additionalSetup() {
+        print("Injection")
+        myMap.delegate = self
+        let gestureRecognizer = UILongPressGestureRecognizer(target: self, action: "addPin:")
+        gestureRecognizer.numberOfTouchesRequired = 1
+        myMap.addGestureRecognizer(gestureRecognizer)
+    }
+    
+    func addPlaceToMap(place: BusinessInfo) {
+        let placePin = PlacePin() // MKPointAnnotation()
+        placePin.title = place.name
+        placePin.subtitle = place.address
+        placePin.coordinate = place.location.coordinate
+        placePin.imageReference = "CafeMilan"
+        myMap.addAnnotation(placePin)
+    }
+    
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        if let annotation = annotation as? PlacePin {
+            let pinAnnotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "myPin")
+            // pinAnnotationView.detailCalloutAccessoryView
+            pinAnnotationView.image =  UIImage(named: annotation.imageReference)
+            pinAnnotationView.pinTintColor = UIColor.blueColor()
+            pinAnnotationView.animatesDrop = true
+            pinAnnotationView.draggable = true
+            pinAnnotationView.canShowCallout = true
+            let myImageView = UIImageView(image: UIImage(named: annotation.imageReference))
+            myImageView.frame = CGRect(x: 0, y: 0, width: 75, height: 50)
+            myImageView.contentMode = .ScaleAspectFit;
+            pinAnnotationView.leftCalloutAccessoryView = myImageView;
+            return pinAnnotationView
+        }
+        else{
+            print("Added \(annotation.self)")
+        }
+        return nil
+    }
+    
+    func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
+        let lat = view.annotation?.coordinate.latitude
+        let lon = view.annotation?.coordinate.longitude
+        print("Selected pin at(\(lat!), \(lon!))")
+    }
+
+}
+
+extension ResultController: CLLocationManagerDelegate {
+    
+    func foundLocation(loc: CLLocation) {
+        print("Found location \(loc)")
+        let pos = location.coordinate
+        let regionRadius: CLLocationDistance = 500
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(
+        pos, regionRadius, regionRadius)
+        self.myMap.setRegion(coordinateRegion, animated: true)
+        self.myMap.showsUserLocation = true
+        self.myMap.userTrackingMode = .Follow
+        // print("User tracking is \(self.myMap.userLocationVisible) and at \(self.myMap.userLocation.coordinate)")
+    }
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        let pos = location.coordinate
+        let regionRadius: CLLocationDistance = 500
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(
+            pos, regionRadius, regionRadius)
+        self.myMap.setRegion(coordinateRegion, animated: false)
+        additionalSetup()
+        placeBusinesses()
+    }
+    
+    func placeBusinesses() {
+        for place in helper.places {
+            addPlaceToMap(place)
+        }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        // setupMap()
+        locationManager = CLLocationManager()
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        checkCoreLocationPermission()
+        
+    }
+    
+    // MARK: - CLLocationManagerDelegate
+    // Triggered by .startUpdating Location
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print("Location Manager invoked")
+        location = (locations).last!
+        foundLocation(location) // Load the map with location
+        locationManager.stopUpdatingLocation() // save the battery
+    }
+    
+    func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
+        print(status)
+        if status == CLAuthorizationStatus.AuthorizedWhenInUse {
+            locationManager.startUpdatingLocation()
+        }
+    }
+    
+    func checkCoreLocationPermission() {
+        // Note that plist must have the row "NSLocationWhenInUseUsageDescription"
+        // this allows us to access location
+        
+        if CLLocationManager.authorizationStatus() == .AuthorizedWhenInUse {
+            print("Authorized to use location")
+            locationManager.startUpdatingLocation()
+            /* Calling this method causes the location manager to obtain an initial location fix (which may take several seconds) and notify your delegate by calling its locationManager:didUpdateLocations: method.
+            */
+        }
+        else if CLLocationManager.authorizationStatus() == .NotDetermined {
+            print("Access not determined")
+            locationManager.requestWhenInUseAuthorization()
+        }
+        else if CLLocationManager.authorizationStatus() == .Restricted {
+            // should trigger alert
+            print("Unauthorized to use location")
+        }
+    }
     
 }

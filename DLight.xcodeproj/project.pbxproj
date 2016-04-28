@@ -39,6 +39,11 @@
 		249B2B301CD0819C00708E7D /* BobsBurgers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 249B2B2F1CD0819C00708E7D /* BobsBurgers.jpg */; };
 		249B2B331CD0870800708E7D /* MResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B2B321CD0870800708E7D /* MResultController.swift */; };
 		249B2B351CD08A2100708E7D /* MRestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B2B341CD08A2100708E7D /* MRestaurantCell.swift */; };
+		249B2B371CD096C100708E7D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249B2B361CD096C100708E7D /* MenuViewController.swift */; };
+		24BF57BF1CD299E500BA5BED /* places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24BF57BE1CD299E500BA5BED /* places.plist */; };
+		24BF57C21CD29A3600BA5BED /* FirebaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF57C11CD29A3600BA5BED /* FirebaseAPI.swift */; };
+		24BF57C41CD29AE300BA5BED /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF57C31CD29AE300BA5BED /* LocationHelper.swift */; };
+		C2E172232ECB70050732A538 /* Pods_DLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E9E1218DFA6026EB0DECA /* Pods_DLight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		141E9E1218DFA6026EB0DECA /* Pods_DLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2453058A1CCC0634000CCBC1 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		2453058D1CCC5454000CCBC1 /* KVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVCell.swift; sourceTree = "<group>"; };
 		245305901CCC5529000CCBC1 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -88,6 +94,12 @@
 		249B2B2F1CD0819C00708E7D /* BobsBurgers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BobsBurgers.jpg; sourceTree = "<group>"; };
 		249B2B321CD0870800708E7D /* MResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MResultController.swift; sourceTree = "<group>"; };
 		249B2B341CD08A2100708E7D /* MRestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRestaurantCell.swift; sourceTree = "<group>"; };
+		249B2B361CD096C100708E7D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		24BF57BE1CD299E500BA5BED /* places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = places.plist; sourceTree = "<group>"; };
+		24BF57C11CD29A3600BA5BED /* FirebaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAPI.swift; sourceTree = "<group>"; };
+		24BF57C31CD29AE300BA5BED /* LocationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		7BAAF4F74992058D5AC4B178 /* Pods-DLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLight/Pods-DLight.release.xcconfig"; sourceTree = "<group>"; };
+		F798D83FE443F5BB1703C7C3 /* Pods-DLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLight/Pods-DLight.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E172232ECB70050732A538 /* Pods_DLight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +160,7 @@
 				248A99501C99158F00DD54DE /* ResultController.swift */,
 				249B2B321CD0870800708E7D /* MResultController.swift */,
 				2453059D1CCD952A000CCBC1 /* RestaurantDetailViewController.swift */,
+				249B2B361CD096C100708E7D /* MenuViewController.swift */,
 				248A994C1C98FAB800DD54DE /* ProfileViewController.swift */,
 				245305961CCC6DF8000CCBC1 /* MProfileViewController.swift */,
 				248A99541C991AF500DD54DE /* DishViewController.swift */,
@@ -162,6 +176,8 @@
 				248A99401C98F4B000DD54DE /* DLightTests */,
 				245305A31CCDBADD000CCBC1 /* Haas.gpx */,
 				248A99271C98F4B000DD54DE /* Products */,
+				D6C0C401904E5BC715323661 /* Pods */,
+				37F76E503A42A3A1EE02F50B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				248A99291C98F4B000DD54DE /* AppDelegate.swift */,
+				24BF57C01CD29A2100BA5BED /* APIs */,
+				24BF57BD1CD299D200BA5BED /* Data */,
 				2453058F1CCC551A000CCBC1 /* Theme */,
 				2453058C1CCC5435000CCBC1 /* Cells */,
 				245305891CCC0624000CCBC1 /* Models */,
@@ -214,6 +232,40 @@
 			name = Assets;
 			sourceTree = "<group>";
 		};
+		24BF57BD1CD299D200BA5BED /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				24BF57BE1CD299E500BA5BED /* places.plist */,
+				24BF57C31CD29AE300BA5BED /* LocationHelper.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		24BF57C01CD29A2100BA5BED /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				24BF57C11CD29A3600BA5BED /* FirebaseAPI.swift */,
+			);
+			name = APIs;
+			sourceTree = "<group>";
+		};
+		37F76E503A42A3A1EE02F50B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				141E9E1218DFA6026EB0DECA /* Pods_DLight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6C0C401904E5BC715323661 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F798D83FE443F5BB1703C7C3 /* Pods-DLight.debug.xcconfig */,
+				7BAAF4F74992058D5AC4B178 /* Pods-DLight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248A99461C98F4B000DD54DE /* Build configuration list for PBXNativeTarget "DLight" */;
 			buildPhases = (
+				7BD350CB38F32B81324E6B59 /* Check Pods Manifest.lock */,
 				248A99221C98F4B000DD54DE /* Sources */,
 				248A99231C98F4B000DD54DE /* Frameworks */,
 				248A99241C98F4B000DD54DE /* Resources */,
+				DE7FF3C5F3EE6336EE1BC376 /* Embed Pods Frameworks */,
+				53EB862B2E35B552B2EF006C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,6 +357,7 @@
 				249B2B2C1CD0801800708E7D /* IrishDubliner.jpg in Resources */,
 				245305A41CCDBADD000CCBC1 /* Haas.gpx in Resources */,
 				249B2B301CD0819C00708E7D /* BobsBurgers.jpg in Resources */,
+				24BF57BF1CD299E500BA5BED /* places.plist in Resources */,
 				248A992F1C98F4B000DD54DE /* Main.storyboard in Resources */,
 				249B2B281CD07FC500708E7D /* LaPetiteBite.jpg in Resources */,
 				249B2B2E1CD0806800708E7D /* CafeMilan.jpg in Resources */,
@@ -317,11 +373,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53EB862B2E35B552B2EF006C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLight/Pods-DLight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD350CB38F32B81324E6B59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE7FF3C5F3EE6336EE1BC376 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLight/Pods-DLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		248A99221C98F4B000DD54DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BF57C41CD29AE300BA5BED /* LocationHelper.swift in Sources */,
 				248A99321C98F4B000DD54DE /* DLight.xcdatamodeld in Sources */,
 				2453059E1CCD952A000CCBC1 /* RestaurantDetailViewController.swift in Sources */,
 				249B2B331CD0870800708E7D /* MResultController.swift in Sources */,
@@ -332,11 +437,13 @@
 				248A99571C991B2900DD54DE /* DishCell.swift in Sources */,
 				245305971CCC6DF8000CCBC1 /* MProfileViewController.swift in Sources */,
 				248A99511C99158F00DD54DE /* ResultController.swift in Sources */,
+				24BF57C21CD29A3600BA5BED /* FirebaseAPI.swift in Sources */,
 				245305A01CCD95DE000CCBC1 /* Restaurant.swift in Sources */,
 				245305951CCC6D94000CCBC1 /* MDishViewController.swift in Sources */,
 				248A994D1C98FAB800DD54DE /* ProfileViewController.swift in Sources */,
 				2453058E1CCC5454000CCBC1 /* KVCell.swift in Sources */,
 				245305991CCC79A9000CCBC1 /* NutritionCell.swift in Sources */,
+				249B2B371CD096C100708E7D /* MenuViewController.swift in Sources */,
 				249B2B241CCFF7A900708E7D /* Menu.swift in Sources */,
 				248A992A1C98F4B000DD54DE /* AppDelegate.swift in Sources */,
 				245305911CCC5529000CCBC1 /* Theme.swift in Sources */,
@@ -467,6 +574,7 @@
 		};
 		248A99471C98F4B000DD54DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F798D83FE443F5BB1703C7C3 /* Pods-DLight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DLight/Info.plist;
@@ -478,6 +586,7 @@
 		};
 		248A99481C98F4B000DD54DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BAAF4F74992058D5AC4B178 /* Pods-DLight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DLight/Info.plist;

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+<dict>
+<key>name</key>
+<string>The Campanile</string>
+<key>location</key>
+<array>
+<real>37.872052</real>
+<real>-122.257822</real>
+</array>
+<key>address</key>
+<string>The Campanile</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Tivoli Caffe</string>
+<key>location</key>
+<array>
+<real>37.8687827</real>
+<real>-122.2578922</real>
+</array>
+<key>address</key>
+<string>2554 Bancroft  Way</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Top Dog</string>
+<key>location</key>
+<array>
+<real>37.86772</real>
+<real>-122.25739</real>
+</array>
+<key>address</key>
+<string>2534 Durant Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Pizzahhh!</string>
+<key>location</key>
+<array>
+<real>37.875148281455</real>
+<real>-122.259898781776</real>
+</array>
+<key>address</key>
+<string>2503 Hearst Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Caffe Strada</string>
+<key>location</key>
+<array>
+<real>37.8691282315142</real>
+<real>-122.254829406738</real>
+</array>
+<key>address</key>
+<string>2300 College Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Heavenly - Vietnamese Fusion Food</string>
+<key>location</key>
+<array>
+<real>37.8695145</real>
+<real>-122.2539444</real>
+</array>
+<key>address</key>
+<string>2701-2717 Bancroft Way</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Dojo Dog</string>
+<key>location</key>
+<array>
+<real>37.8692972</real>
+<real>-122.2546034</real>
+</array>
+<key>address</key>
+<string>Bancroft Way and College Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Gypsy's Trattoria Italiano</string>
+<key>location</key>
+<array>
+<real>37.868045487626</real>
+<real>-122.25808485862</real>
+</array>
+<key>address</key>
+<string>2519 Durant Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Montague's Gourmet Sandwiches</string>
+<key>location</key>
+<array>
+<real>37.8668365</real>
+<real>-122.2582779</real>
+</array>
+<key>address</key>
+<string>2510 Channing Way</string>
+</dict>
+<dict>
+<key>name</key>
+<string>I B's Hoagies</string>
+<key>location</key>
+<array>
+<real>37.868048</real>
+<real>-122.258478</real>
+</array>
+<key>address</key>
+<string>2513 Durant Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Smoke's Poutinerie</string>
+<key>location</key>
+<array>
+<real>37.8678067612351</real>
+<real>-122.25806995227</real>
+</array>
+<key>address</key>
+<string>2518 Durant Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Tea Press</string>
+<key>location</key>
+<array>
+<real>37.868828997016</real>
+<real>-122.257980331779</real>
+</array>
+<key>address</key>
+<string>2552 Bancroft Way</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Cheese 'N' Stuff</string>
+<key>location</key>
+<array>
+<real>37.8675802752215</real>
+<real>-122.259550841607</real>
+</array>
+<key>address</key>
+<string>2442 Durant Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>KoJa Kitchen</string>
+<key>location</key>
+<array>
+<real>37.8670846</real>
+<real>-122.2587409</real>
+</array>
+<key>address</key>
+<string>2395 Telegraph Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Artichoke Basille's Pizza</string>
+<key>location</key>
+<array>
+<real>37.8679746</real>
+<real>-122.2568488</real>
+</array>
+<key>address</key>
+<string>2590 Durant Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Tacos Sinaloa</string>
+<key>location</key>
+<array>
+<real>37.8671979534161</real>
+<real>-122.25897911936</real>
+</array>
+<key>address</key>
+<string>2384 Telegraph Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>The Stuffed Inn</string>
+<key>location</key>
+<array>
+<real>37.8756866455078</real>
+<real>-122.260040283203</real>
+</array>
+<key>address</key>
+<string>1829 Euclid Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Tap Haus</string>
+<key>location</key>
+<array>
+<real>37.8678736756068</real>
+<real>-122.258263640106</real>
+</array>
+<key>address</key>
+<string>2516 Durant Ave</string>
+</dict>
+<dict>
+<key>name</key>
+<string>Chengdu Style Restaurant</string>
+<key>location</key>
+<array>
+<real>37.868766784668</real>
+<real>-122.256561279297</real>
+</array>
+<key>address</key>
+<string>2600 Bancroft Way</string>
+</dict>
+<dict>
+<key>name</key>
+<string>The Coffee Lab</string>
+<key>location</key>
+<array>
+<real>37.8727784971583</real>
+<real>-122.255591154098</real>
+</array>
+<key>address</key>
+<string>Hildebrand Hall</string>
+</dict>
+</array>
+</plist>
