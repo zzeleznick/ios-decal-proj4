@@ -43,6 +43,7 @@
 		24BF57BF1CD299E500BA5BED /* places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24BF57BE1CD299E500BA5BED /* places.plist */; };
 		24BF57C21CD29A3600BA5BED /* FirebaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF57C11CD29A3600BA5BED /* FirebaseAPI.swift */; };
 		24BF57C41CD29AE300BA5BED /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF57C31CD29AE300BA5BED /* LocationHelper.swift */; };
+		24BF57CE1CD3C22900BA5BED /* CITRIS.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 24BF57CD1CD3C22900BA5BED /* CITRIS.gpx */; };
 		C2E172232ECB70050732A538 /* Pods_DLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141E9E1218DFA6026EB0DECA /* Pods_DLight.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,7 @@
 		24BF57BE1CD299E500BA5BED /* places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = places.plist; sourceTree = "<group>"; };
 		24BF57C11CD29A3600BA5BED /* FirebaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAPI.swift; sourceTree = "<group>"; };
 		24BF57C31CD29AE300BA5BED /* LocationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		24BF57CD1CD3C22900BA5BED /* CITRIS.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CITRIS.gpx; path = locations/CITRIS.gpx; sourceTree = "<group>"; };
 		7BAAF4F74992058D5AC4B178 /* Pods-DLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLight/Pods-DLight.release.xcconfig"; sourceTree = "<group>"; };
 		F798D83FE443F5BB1703C7C3 /* Pods-DLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLight/Pods-DLight.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +177,7 @@
 				248A99281C98F4B000DD54DE /* DLight */,
 				248A99401C98F4B000DD54DE /* DLightTests */,
 				245305A31CCDBADD000CCBC1 /* Haas.gpx */,
+				24BF57CD1CD3C22900BA5BED /* CITRIS.gpx */,
 				248A99271C98F4B000DD54DE /* Products */,
 				D6C0C401904E5BC715323661 /* Pods */,
 				37F76E503A42A3A1EE02F50B /* Frameworks */,
@@ -355,6 +358,7 @@
 				248A99371C98F4B000DD54DE /* LaunchScreen.storyboard in Resources */,
 				248A99341C98F4B000DD54DE /* Assets.xcassets in Resources */,
 				249B2B2C1CD0801800708E7D /* IrishDubliner.jpg in Resources */,
+				24BF57CE1CD3C22900BA5BED /* CITRIS.gpx in Resources */,
 				245305A41CCDBADD000CCBC1 /* Haas.gpx in Resources */,
 				249B2B301CD0819C00708E7D /* BobsBurgers.jpg in Resources */,
 				24BF57BF1CD299E500BA5BED /* places.plist in Resources */,

@@ -63,10 +63,11 @@ class RestaurantDetailViewController: UIViewController, UITableViewDelegate, UIT
         scroller.addSubview(myTable)
         // End Programatic Methods
     }
+
     func applyTransition() {
         let dest = MDishViewController()
         dest.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
-        navigationController?.pushViewController(dest, animated: true)
+        navigationController?.showViewController(dest, sender: self)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

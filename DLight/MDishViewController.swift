@@ -86,8 +86,13 @@ class MDishViewController: UIViewController, UITableViewDelegate, UITableViewDat
         myTable.allowsSelection = false
         scroller.addSubview(myTable)
         // End Programatic Methods
+        if index > 0{
+            // navigationItem.backBarButtonItem?.action = "toFirst"
+        }
     }
-    
+    func toFirst(){
+        navigationController?.popToViewController(ViewController(), animated: true)
+    }
     func nextDish() {
         let dest = MDishViewController()
         let next = index+1

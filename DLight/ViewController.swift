@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         let dest = MDishViewController()
         dest.view.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
         navigationController?.pushViewController(dest, animated: true)
+        // navigationController?.showViewController(dest, sender: self)
     }
     
     override func didReceiveMemoryWarning() {
