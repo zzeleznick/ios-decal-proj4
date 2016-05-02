@@ -48,3 +48,7 @@ top meals.
 - RestaurantController
 - ProfileViewController
 - MealViewController
+
+## Credits
+- GeoFire for geolocation
+- Firebase for database storage
